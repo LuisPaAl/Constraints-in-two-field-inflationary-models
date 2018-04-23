@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.14)  22 APR 2018 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.14)  23 APR 2018 02:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,27 +697,40 @@ File: SFDMconstraints.png Graphic file (type png)
 <use SFDMconstraints.png>
 Package pdftex.def Info: SFDMconstraints.png used on input line 314.
 (pdftex.def)             Requested size: 227.62204pt x 154.94287pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
+
+Underfull \vbox (badness 5908) has occurred while \output is active []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 340.
  [4pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.321 \end{document}
-                    
+l.340 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.A1.1}) has been already used, duplicate ignored
 
- <./SFDMconstraints.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.340 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.A1.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.340 \end{document}
+                     <./SFDMconstraints.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 340.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 321.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 340.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 340.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C9C6DC317D6A5FB96BB9989460B0B77B;977.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 340.
  ) 
 Here is how much of TeX's memory you used:
- 8080 strings out of 493029
- 111259 string characters out of 6136234
+ 8083 strings out of 493029
+ 111298 string characters out of 6136234
  226705 words of memory out of 5000000
  11379 multiletter control sequences out of 15000+600000
  55134 words of font info for 129 fonts, out of 8000000 for 9000
@@ -742,10 +755,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (4 pages, 259752 bytes).
+Output written on main.pdf (4 pages, 260821 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 181 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 500000)
+ 214 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 52 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
