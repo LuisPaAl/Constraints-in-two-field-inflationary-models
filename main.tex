@@ -1,53 +1,60 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Made by:
-% Ciudad de Mexico
-% Mexico
-% Sat Oct 15 10:10:44 UTC 2016
-%
+\documentclass[twocolumn,           % Format : preprint, twocolumn
+%\documentclass[preprint,           % Format : preprint, twocolumn
+               showpacs,            % Pacs : showpacs, noshowpacs
+               preprintnumbers,     % Preprint: preprintnumbers,
+               			    %           nopreprintnumbers
+               aps,                 % Society: ...
+               prl,          	    % Journal Style : pra, prb, prc, prd, pre,
+               			    %                 prl, prstab, rmp
+               letterpaper,             % Size : a4paper, ...
+               superscriptaddress,      % Affiliation (Title) : groupedaddress,
+                                    %                       superscriptaddress,
+                                    %                       unsortedaddress
+               nofootinbib,         % Footnote: footinbib, nofootinbib
+               tightenlines,        % Remove additional spaces in a line
+               floats,floatfix      % Floating pictures and tables
+               ,usenatbib,
+               ]{revtex4-1}
+\usepackage{graphicx}  % needed for figures
+\usepackage{dcolumn}   % needed for some tables}
+%\usepackage[style=authoryear,backend=biber]{biblatex}
+\usepackage{bm}        % for math
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{color}
+\definecolor{purple}{rgb}{0.58,0.0,0.83}
+\usepackage{caption}
+\usepackage[toc,page]{appendix}
+\usepackage{subcaption}
 
-\documentclass[a4paper,fleqn,usenatbib,useAMS]{mnras}
-
-\usepackage[T1]{fontenc}
-\usepackage{ae,aecompl}
-\usepackage{graphicx}	% Including figure files
-\usepackage{amsmath}	% Advanced maths commands
-\usepackage{amssymb}	% Extra maths symbols
-\usepackage[british]{babel}
-\usepackage{multicol}        % Multi-column entries in tables
-\usepackage{bm}		% Bold maths symbols, including upright Greek
-\usepackage{pdflscape}	% Landscape pages
-
-
-  
 \begin{document}
 
-\title{Constraints for two field inflationary models}
-
-%\author[]{    }
-
-% These dates will be filled out by the publisher
-%\date{Accepted XXX. Received YYY; in original form ZZZ}
+\title{Constraining two field inflationary models}
+\author{Luis Padilla-Albores}  
+\email{epadilla@fis.cinvestav.mx}
+\affiliation{Departamento de F\'isica, Centro de Investigaci\'on y de Estudios Avanzados del IPN, A.P. 14-740, 07000 M\'exico D.F.,
+  M\'exico.}
+   \author{Jos\'e Alberto V\'azquez Gonz\'alez}  
+\email{javazquez@icf.unam.mx}
+\affiliation{Instituto de ciencias físicas, Universidad Nacional Aut\'onoma de M\'exico, sede Cuernavaca, Morelos, México}
+\author{Tonatiuh Matos}  
+\email{tmatos@fis.cinvestav.mx}
+\affiliation{Departamento de F\'isica, Centro de Investigaci\'on y de Estudios Avanzados del IPN, A.P. 14-740, 07000 M\'exico D.F.,
+  M\'exico.}
 \date{\today}
 
-% Enter the current year, for the copyright statements etc.
-%\pubyear{2016}
-
-%\label{firstpage}
-%\pagerange{\pageref{firstpage}--%\pageref{lastpage}}
-\maketitle
-
-
-%%%%% ABSTRACT %%%%%%%
 \begin{abstract}
 XX\\
 XX\\
 XX\\
 
 \end{abstract}
-
+\pacs{????}
 \begin{keywords}
 dark matter  -- galaxy clusters --  gravitation  -- relativity
 \end{keywords}
+
+\maketitle
 
 
 
@@ -84,13 +91,13 @@ H^2=\frac{8\pi G}{3}\left[V+\frac{1}{2}\left(\dot{\phi}+\dot\psi\right)\right],
 where $V_i\equiv\partial V/\partial \phi_i$. In the inflationary era it is usually assumed that the scalar fields are slow-rolling. This happens always that the condition $\epsilon_i,|\eta_{ij}|\ll 1$ is fulfill; $\epsilon_i$ and $\eta_{ij}$ are called the slow-roll parameters and are defined in appendix [A]. If this happens we can rewrite the above equations as
 \begin{subequations}
 \begin{equation}
-\dot{\phi}_i\simeq -\frac{V_i}{3H}\left(1+\frac{1}{3}\delta_i^H\right)
+\dot{\phi}_i\simeq \frac{2}{3}\epsilon_i V
 \end{equation}
 \begin{equation}
 H^2\simeq \frac{8\pi G}{3}V\left(1+\frac{1}{3}\epsilon^H\right)
 \end{equation}
 \end{subequations}
-where $\delta^H_i$ and $\epsilon^H$ are new slow-roll parameters defined in appendix [A]. 
+where $\epsilon^H$ are new slow-roll parameters defined in appendix [A]. 
 \subsection{The adiabatic and isocurvature perturbations}
 
 The equation of motion for the perturbed fields in the spatially flat gauge are (ref)
@@ -173,25 +180,25 @@ with $M_{pl}$ the Planck mass and $\Delta$ is the observable correlation angle d
 \begin{equation}
 \cos\Delta =\frac{T_{RS}}{\sqrt{1+T_{RS}^2}}.
 \end{equation}
-The final scalar tilts, defined as $n_x=d\ln P_x/d\ln k$, at linear order in slow-roll parameters are
+The final scalar tilts, defined as $n_x-1=d\ln P_x/d\ln k$, at linear order in slow-roll parameters are
 \begin{subequations}\label{tilts}
 \begin{eqnarray}
-n_R&\simeq & -(6-4\cos^2\Delta)\epsilon+2\sin^2\Delta\eta_{\sigma\sigma}\nonumber \\ &&+4\sin\Delta\cos\Delta\eta_{\sigma s}+2\cos^2\Delta\eta_{ss}\\
-n_c&\simeq &-2\epsilon+2\tan\Delta\eta_{\sigma s}+2\eta_{ss}\\
-n_S&\simeq & -2\epsilon+2\eta_{ss}
+n_R-1&\simeq & -(6-4\cos^2\Delta)\epsilon+2\sin^2\Delta\eta_{\sigma\sigma}\nonumber \\ &&+4\sin\Delta\cos\Delta\eta_{\sigma s}+2\cos^2\Delta\eta_{ss}\\
+n_c-1&\simeq &-2\epsilon+2\tan\Delta\eta_{\sigma s}+2\eta_{ss}\\
+n_S-1&\simeq & -2\epsilon+2\eta_{ss}
 \end{eqnarray}
 \end{subequations}
 
 In order to understand what is the contribution of our dark matter candidate to the primordial spectrum, it is better to rewritte the primordial adiabatic and entropy perturbations on super-horizon scales as a power law, given by
 \begin{subequations}\label{PswAs}
 \begin{equation}\label{PrAs}
-P_R=A_r^2\left(\frac{k}{k_0}\right)^{n_{ad1}}+A_s^2\left(\frac{k}{k_0}\right)^{n_{ad2}}
+P_R=A_r^2\left(\frac{k}{k_0}\right)^{n_{ad1}-1}+A_s^2\left(\frac{k}{k_0}\right)^{n_{ad2}-1}
 \end{equation}
 \begin{equation}\label{PrCrs}
-C_{RS}=A_SB\left(\frac{k}{k_0}\right)^{n_{cor}}
+C_{RS}=A_SB\left(\frac{k}{k_0}\right)^{n_{cor}-1}
 \end{equation}
 \begin{equation}\label{PsAs}
-P_s=B^2\left(\frac{k}{k_0}\right)^{n_{iso}}
+P_s=B^2\left(\frac{k}{k_0}\right)^{n_{iso}-1}
 \end{equation}
 \end{subequations}
 where at linear order $n_{ad1}=-6\epsilon+2\eta_{\sigma\sigma}$, $n_{ad2}=2n_C-n_S$, $n_{cor}=n_c$, $n_{iso}=n_S$. We have that $A_r^2$, $A_s^2$ and $B$ can be written in terms of the correlation angle as
@@ -216,7 +223,7 @@ n_T\simeq -2\epsilon\left[1+\left(\frac{4}{3}+4C\right)\epsilon+\left(\frac{2}{3
 \end{equation}
 
 The tensor-to-scalar ratio at Hubble exit is the same than in the single field. However, at super-horizon scales, the curvature perturbations continue evolving as \eqref{PRf}. In this way the tensor-to-scalar ratio some time after the end of inflation is
-\begin{equation}
+\begin{equation}\label{Tensortoscalar}
 r\simeq 16\epsilon \sin^2\Delta\left[1-\left(\frac{4}{3}+4C\right)\epsilon +\left(\frac{2}{3}+2C\right)\eta_{\sigma\sigma}\right]
 \end{equation}
 \section{Experimental constraints for inflationary parameters}
@@ -229,11 +236,9 @@ r\simeq 16\epsilon \sin^2\Delta\left[1-\left(\frac{4}{3}+4C\right)\epsilon +\lef
 %
 %
 %
-\section{Simplest scenario: The one field straight scenario and constraints for SFDM models}
+\section{Simplest scenario: The single field straight scenario and constraints for SFDM models}
 
-The simplest scenario is to consider that only one scalar field was dynamically important during inflation and the extra scalar field observer contributed to the primordial spectrum by generating only isocurvature fluctuations. Even tough the idea of adding an extra spectator that does not contribute for inflation could be considered as no necessary, there are at least two scenarios where this extra degrees of freedom can be important. First is the so called curvaton inflationary model (ref), where it is consider that this new field is responsible for the majority of the adiabatic perturbations. This scenario has been well studied in the literature (ref) and now a days it is one of the preferable scenarios for inflation (ref). In the other side we can consider an scenario where this extra scalar field can be used as a Dark Matter candidate, in such case we will have isocurvature constraints for our model. 
-
-\subsection{Curvaton scenario}
+The simplest scenario is to consider that only one scalar field was dynamically important during inflation and the extra scalar field observer contributed to the primordial spectrum by generating only isocurvature fluctuations. Even tough the idea of adding an extra spectator that does not contribute for inflation could be considered as no necessary, there are at least two scenarios where this extra degrees of freedom can be important. First is the so called curvaton inflationary model (ref), where it is consider that this new field is responsible for the majority of the adiabatic perturbations produced during inflation. This scenario has been well studied in the literature (ref) and now a days it is one of the preferable scenarios for inflation (ref). In the other side we can consider an scenario where this extra scalar field can be used as a Dark Matter candidate, in such case we will have isocurvature constraints for our model. 
 
 \subsection{SFDM spectator scenario}
 The idea of scalar fields as the DM of the Universe was first suggested in (Baldeshti et al. (1983)) and rediscovery by various authors with different names (see e.g. Membrado et al. 1989; Press et al. 1990; Sin 1994; Ji $\&$ Sin 1994; Lee $\&$ Koh 1996; Sahni $\&$ Wang 2000; Peebles 2000; Goodman 2000; Matos $\&$ Ure\~na-L\'opez 2000; Matos $\&$ Arturo Ure\~na-L\'opez 2001; Wetterich 2001; Arbey et al 2001; Woo $\&$ Chiueh 2009; Lundgren et al. 2010; Calabrese $\&$ Spergel 2016; Schwabe et al. 2016; Hui et al. 2017; Moez et al. 2017, among others), for example: SFDM (Matos $\&$ Guzm\'an 2000), fuzzy DM (HU et al. 2000), wave DM (Bray 2010; Schive et al. 2014a), Bose-Einstein condensate DM (B\"omer $\&$ Harko 2007) or ultra-light axion DM (Marsh $\&$ Ferreira 2010). \textcolor{red}{(Completar este p\'arrafo diciendo que el modelo es un candidato serio y meter m\'as referencias).} 
@@ -314,10 +319,71 @@ In ref. (ref) it was obtained the above expression thinking in the SFDM candidat
 \includegraphics[width=8cm]{SFDMconstraints.png}
 \caption{Isocurvature constraints for the SFDM candidate.}\label{constraintsSFDM}
 \end{figure}
+
+\subsection{Curvaton scenario}
+
+In the curvaton scenario it is assumed that during inflation there was an extra scalar field that coexist with the inflaton and its classical dynamics was negligible (its energy density was sub-dominant during inflation). Then, similar to the SFDM scenario, this scalar field obtained quantum fluctuations, leading to the generation of primordial isocurvature perturbations. If the curvaton field is long lived (at least its life must be longer than the inflaton one) it starts to oscillate when the Hubble scale $H$ approaches the curvaton mass (see appendix [B]) shortly before or after the inflaton decays to radiation. During its oscillation phase, this curvaton field starts to behave as dust and then its perturbations are reduced slower than the ones associated with the inflaton [ref]. If the curvaton decays to radiation when its quantum fluctuations dominates over the inflaton ones, we can obtain a scenario where curvaton quantum fluctuations can dominate the early Universe and give place to be the totality of the initial adiabatic perturbations (ref). In our formalism, such scenario is obtained when $T_{RS}>>1$ or equivalently when we consider in our analysis $\sin\Delta = 0$ (ref), in such case we obtain that the tensor-to-scalar ratio in the pure curvaton scenario is $r=0$.  
+
+In the last few years people has started to study curvaton models but considering that the curvaton field does not constribute for the totality of the primordial adiabatic perturbations, instead, it contributes to a fraction of the total curvature perturbations, while the remaining one was produced by the inflaton (ref). Notice that such scenario is obtained if $0<\cos\Delta <1$. It is also usual to redefine a new parameter in this model $R= [\cot^2\Delta]_{k_0}$ which can be related with the curvaton-to-inflaton density fraction of primordial curvature perturbations. Then, the primordial adiabatic perturbations can be written from \eqref{PrAs} as
+\begin{equation}\label{PCr}
+\mathcal{P}_R(k)=A_r\left(\left(\frac{k}{k_{0}}\right)^{n_s^\phi-1}+R\left(\frac{k}{k_{0}}\right)^{n_s^\psi-1}\right)
+\end{equation}
+where $n_s^\phi-1 = -6\epsilon_\phi+2\eta_{\phi\phi}$ and $n_s^\psi-1 = -2\epsilon_\psi+2\eta_{\psi\psi}$.
+The total spectral index ($n_s-1=d\ln P_R/d\ln k$) is given then by
+\begin{equation}
+n_s-1=\frac{n_s^\phi+R n_s^\psi}{1+R}-1
+\end{equation}
+
+An advantage of this kind of models is that it can help to single inflationary models that at the moment could be considered as ruled-out by the data (but that could be well motivated theoretically) to remain in the competition in the inflationary zoo. As an example in (referencia de Curvaton after Planck) it was studied in a Bayesian framework several inflationary models with an extra light scalar field with a quadratic-like potential \textcolor{red}{(Checar bien esta parte)}. In such study it was obtained that one of the most preferable scenarios is a quartic-like inflationary potential with our extra scalar spectator. However it is necessary to notice that such scenario is favorable only in the limit where the curvaton produced nearly the totality of the primordial adiabatic perturbations, i.e. when $R>>1$. If in the other side we allow that our parameter $R$ takes whichever value, we could expect that more chaotic-like inflationary potentials could continue fitting observations. In fact when we consider the chaotic potential $V(\phi)=(1/2)m_p\phi^p$ for the inflaton and the  potential $V(\psi)= (1/2)M^2\psi^2$ for the curvaton, the spectral index $n_s$ is rewritten as
+\begin{equation}
+\label{nsexplicit}
+n_s-1\approx -\frac{1}{1+R}\frac{2(2+p)}{4N+p}+\frac{R}{1+R}\left[-\frac{2p}{4N+p}+\frac{2M^2}{3H_*^2}\right]
+\end{equation}
+where  $N$ is the number of e-folds produced before our scales left the horizon and it is usually used $N=50\sim 60$. In the above equation we have used the Friedman equation in the slow-roll approximation for the term containing $M$. In this way from \eqref{Tensortoscalar} the tensor to scalar ratio in this model is given by
+\begin{equation}\label{tensortoscalar}
+r=\frac{16\epsilon_\phi}{1+R}
+\end{equation}		
+If we use \eqref{tensortoscalar} into \eqref{nsexplicit} we have 
+\begin{equation}
+n_s-1=-\frac{(2+p)}{8p}r+\left[1-\frac{(4N+p)}{16p}r\right]\left[\frac{2}{3}\frac{M^2}{H^2}-\frac{2p}{4N+p}\right]
+\end{equation}
+where we have obtained a relation between the spectral index and the tensor-to-scalar ratio which are well constrain by the data. Notice that in the limit when the curvaton dominates completely the adiabatic perturbations ($r\simeq 0$) and considering the mass of the curvaton negligible compared with the Hubble parameter (i.e. $M<<H$) we obtain that $n_s-1\simeq p/(120+p/2)$ and then the observational constrains for the spectral index means that the inflaton field must be close to be a quartic potential, $p=4$. Such result can be observed in figure \ref{nvsr}, where we have plotted the above equation neglecting $M/H$ and letting $R$ to vary using as our only constriction for it the actual upper constraint on $r$. In such figure we can observe an upper an lower value for $n_s$ in terms of $r$ which is obtained when we consider $N=60-50$ e-folds at the moment when our scales left the horizon. In the other side when we allow $M/H$ to vary using as our constriction that $M/H<1$ (in order to obtain quantum fluctuations for the curvaton during inflation) we can obtain that for some regions of parameters more chaotic like potentials can fit well the data. Such results can be observed in figures \ref{curv50} and \ref{curv60} where we have plotted contour plots for $r$ from the above equation in the $M/H$ vs $n_s$ plane. In this way we have seen the big advantage of adding this new degree of freedom to a simple chaotic-like model of inflation.
+\begin{figure}
+\centering
+\includegraphics[width=0.4\textwidth]{nvsr}
+\caption{Possible values in the n vs r plane when we allow $R$ to vary. The values that can be produced by the models are the ones between the two limits plotted in the figure.\textcolor{red}{(Tratar de pintar las regiones entre las l\'ineas y poner los datos de Planck para que se vea mejor.)}}
+\label{nvsr}
+\end{figure}
+% * <epadilla@fis.cinvestav.mx> 2018-04-29T03:33:02.572Z:
+%
+% ^.
+\newpage
+\begin{figure}[h]
+\centering
+\begin{subfigure}[b]{\textwidth}
+\includegraphics[width=0.4\textwidth]{p150.png}
+\includegraphics[width=0.4\textwidth]{p250.png}\\
+\includegraphics[width=0.4\textwidth]{p350.png}
+\includegraphics[width=0.4\textwidth]{p450.png}
+\label{curv50}
+\end{subfigure}
+\caption{Inflationary constraints in the $M/H$ vs $n_s$ plane for $N=50$ e-folds. We plotted contour regions for $0<r<0.1$.}
+\begin{subfigure}[b]{\textwidth}\centering
+\includegraphics[width=0.4\textwidth]{p160.png}
+\includegraphics[width=0.4\textwidth]{p260.png}\\ \includegraphics[width=0.4\textwidth]{p360.png}
+\includegraphics[width=0.4\textwidth]{p460.png}
+%\captionof{figure}
+%{\footnotesize{A }}
+\label{curv60}
+\end{subfigure}
+\caption{Inflationary constraints in the $M/H$ vs $n_s$ plane for $N=60$ e-folds. We plotted contour regions for $0<r<0.1$.}
+\end{figure}
 \section{Constraining two field models with last data}
+A
 \section{Conclusions}
 \appendix
 \section{Slow-Roll index}
+
 In this appendix we define the slow roll indexes used in our calculation. We have:
 \begin{subequations}
 \begin{equation}
@@ -337,4 +403,13 @@ and
 \eta_{\sigma s}&=&(\eta_{\psi\psi}-\eta_{\phi\phi})\sin\theta\cos\theta + \eta_{\phi\psi}(\cos^2\theta-\sin^2\theta)\\
 \eta_{ss}&=&\eta_{\phi\phi}\sin^2\theta - 2\eta_{\phi\psi}\cos\theta\sin\theta+\eta_{\psi\psi}\cos^2\theta\nonumber 
 \end{eqnarray}
+
+\section{Papers}
+Aqu\'i pondré de mientras los links de los papers que he revisado:
+
+https://arxiv.org/pdf/1712.05364.pdf
+
+https://arxiv.org/pdf/1505.00639.pdf
+
+https://arxiv.org/pdf/astro-ph/0306500.pdf
 \end{document}
