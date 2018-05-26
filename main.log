@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.14)  28 APR 2018 22:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.14)  26 MAY 2018 04:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -489,132 +489,211 @@ Class revtex4-1 Warning: If you want your keywords to appear in your output, us
 e document class option showkeys.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<SFDMconstraints.png, id=165, 405.515pt x 276.03125pt>
+<SFDMconstraints.png, id=171, 405.515pt x 276.03125pt>
 File: SFDMconstraints.png Graphic file (type png)
 
 <use SFDMconstraints.png>
-Package pdftex.def Info: SFDMconstraints.png used on input line 319.
+Package pdftex.def Info: SFDMconstraints.png used on input line 333.
 (pdftex.def)             Requested size: 227.62204pt x 154.94287pt.
- [4 <./SFDMconstraints.png>]
-Overfull \hbox (0.58769pt too wide) detected at line 349
+ [4]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ­ in font cmr10!
+
+Underfull \hbox (badness 7099) in paragraph at lines 344--345
+[]\OT1/cmr/m/it/10 Self-interacting SFDM sce-nario with a pos-i-tive
+ []
+
+<lambdavsr.png, id=193, 405.515pt x 276.03125pt>
+File: lambdavsr.png Graphic file (type png)
+ <use lambdavsr.png>
+Package pdftex.def Info: lambdavsr.png used on input line 361.
+(pdftex.def)             Requested size: 227.62204pt x 154.94287pt.
+ [5 <./SFDMconstraints.png> <./lambdavsr.png>]
+<stronglamb.png, id=211, 384.43625pt x 258.9675pt>
+File: stronglamb.png Graphic file (type png)
+ <use stronglamb.png>
+Package pdftex.def Info: stronglamb.png used on input line 375.
+(pdftex.def)             Requested size: 227.62204pt x 153.3348pt.
+
+Underfull \hbox (badness 5519) in paragraph at lines 379--381
+[]\OT1/cmr/m/it/10 Self-interacting SFDM sce-nario with a neg-a-tive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--384
+
+ []
+
+[6 <./stronglamb.png>]
+Overfull \hbox (0.58769pt too wide) detected at line 411
 []\OML/cmm/m/it/10 n[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1 = \OMS/cmsy/m/n/1
 0 ^^@[]\OML/cmm/m/it/10 r \OT1/cmr/m/n/10 + [] []
  []
 
 
-Package caption Warning: \label without proper reference on input line 368.
+Package caption Warning: \label without proper reference on input line 430.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `curv50' on page 5 undefined on input line 350.
+LaTeX Warning: Reference `curv50' on page 7 undefined on input line 412.
 
 
-Package caption Warning: \label without proper reference on input line 377.
+Package caption Warning: \label without proper reference on input line 439.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `curv60' on page 5 undefined on input line 350.
+LaTeX Warning: Reference `curv60' on page 7 undefined on input line 412.
 
-<nvsr.png, id=186, 400.49625pt x 269.005pt>
+<nvsr.png, id=230, 400.49625pt x 269.005pt>
 File: nvsr.png Graphic file (type png)
  <use nvsr.png>
-Package pdftex.def Info: nvsr.png used on input line 353.
+Package pdftex.def Info: nvsr.png used on input line 415.
 (pdftex.def)             Requested size: 203.99689pt x 137.02243pt.
 
-<p150.png, id=187, 391.4625pt x 285.065pt>
+<p150.png, id=231, 391.4625pt x 285.065pt>
 File: p150.png Graphic file (type png)
  <use p150.png>
-Package pdftex.def Info: p150.png used on input line 364.
+Package pdftex.def Info: p150.png used on input line 426.
 (pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
 
-<p250.png, id=188, 391.4625pt x 285.065pt>
+<p250.png, id=232, 391.4625pt x 285.065pt>
 File: p250.png Graphic file (type png)
  <use p250.png>
-Package pdftex.def Info: p250.png used on input line 365.
+Package pdftex.def Info: p250.png used on input line 427.
 (pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
 
-<p350.png, id=189, 391.4625pt x 285.065pt>
+<p350.png, id=233, 391.4625pt x 285.065pt>
 File: p350.png Graphic file (type png)
  <use p350.png>
-Package pdftex.def Info: p350.png used on input line 366.
+Package pdftex.def Info: p350.png used on input line 428.
 (pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
 
-<p450.png, id=190, 391.4625pt x 285.065pt>
+<p450.png, id=234, 391.4625pt x 285.065pt>
 File: p450.png Graphic file (type png)
  <use p450.png>
-Package pdftex.def Info: p450.png used on input line 367.
+Package pdftex.def Info: p450.png used on input line 429.
 (pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
 
-Overfull \hbox (264.0pt too wide) in paragraph at lines 363--370
+Overfull \hbox (264.0pt too wide) in paragraph at lines 425--432
  [][] 
  []
 
-<p160.png, id=191, 391.4625pt x 285.065pt>
+<p160.png, id=235, 391.4625pt x 285.065pt>
 File: p160.png Graphic file (type png)
  <use p160.png>
-Package pdftex.def Info: p160.png used on input line 372.
+Package pdftex.def Info: p160.png used on input line 434.
 (pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
 
-<p260.png, id=192, 391.4625pt x 285.065pt>
+<p260.png, id=236, 391.4625pt x 285.065pt>
 File: p260.png Graphic file (type png)
  <use p260.png>
-Package pdftex.def Info: p260.png used on input line 373.
+Package pdftex.def Info: p260.png used on input line 435.
 (pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
 
-<p360.png, id=193, 391.4625pt x 285.065pt>
+<p360.png, id=237, 391.4625pt x 285.065pt>
 File: p360.png Graphic file (type png)
  <use p360.png>
-Package pdftex.def Info: p360.png used on input line 373.
+Package pdftex.def Info: p360.png used on input line 435.
 (pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
 
-<p460.png, id=194, 391.4625pt x 285.065pt>
+<p460.png, id=238, 391.4625pt x 285.065pt>
 File: p460.png Graphic file (type png)
  <use p460.png>
-Package pdftex.def Info: p460.png used on input line 374.
+Package pdftex.def Info: p460.png used on input line 436.
 (pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
 
-Overfull \hbox (264.0pt too wide) in paragraph at lines 371--379
+Overfull \hbox (264.0pt too wide) in paragraph at lines 433--441
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 21.20868pt on input line 380.
-
-[5]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 381.
+LaTeX Warning: Float too large for page by 21.20868pt on input line 442.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 381.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./nvsr.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 471.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 471.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[8]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 543.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 543.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (1.35594pt too wide) detected at line 547
+[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10  []\OMS/cmsy/m/n/10 j[] ' [] [][] [] [][]
+ []
+
+
+Underfull \hbox (badness 7221) in paragraph at lines 569--572
+\OT1/cmr/m/n/10 Notice that the ef-fec-tive mass of the field is
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 569--572
+\OT1/cmr/m/n/10 tion im-posed dur-ing in-fla-tion the ef-fec-tive mass of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 569--572
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--579
+
+ []
+
+[9]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 610.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 610.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 No file main.bbl.
-[6 <./nvsr.png>] [7 <./p150.png> <./p250.png> <./p350.png> <./p450.png> <./p160
-.png> <./p260.png> <./p360.png> <./p460.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 415.
+[10] [11 <./p150.png> <./p250.png> <./p350.png> <./p450.png> <./p160.png> <./p2
+60.png> <./p360.png> <./p460.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 642.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 415.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 415.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 642.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 642.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9E0CFAD8792D9E6078E9CF84EF5606C9;1359.
+(rerunfilecheck)             Checksum: F0C5E54BE53789721F5AE3F61C064BE8;1435.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9337 strings out of 493029
- 135238 string characters out of 6136234
- 249637 words of memory out of 5000000
- 12657 multiletter control sequences out of 15000+600000
- 14639 words of font info for 54 fonts, out of 8000000 for 9000
+ 9426 strings out of 493029
+ 136462 string characters out of 6136234
+ 251329 words of memory out of 5000000
+ 12692 multiletter control sequences out of 15000+600000
+ 16807 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,11n,39p,1488b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{frontmatter.3} has been referenced but does not e
@@ -642,11 +721,12 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (7 pages, 418461 bytes).
+pe1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (11 pages, 573934 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
- 96 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 355 compressed objects within 4 object streams
+ 142 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 

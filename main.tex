@@ -81,8 +81,8 @@ In this section we review in a general way two field inflationary models for inf
 
 In this section we consider a two-field inflationary model with canonical kinetic term and where its dynamics is described by an arbitrary interaction potential $V(\phi,\psi)$. As usual we consider that the classical fields are homogeneous and evolve in a FLRW background. Then, the background equation of motion for each scalar field and the Hubble parameter are
 \begin{subequations}
-\begin{equation}
-\ddot{\phi}_i+3H\dot{\phi_i}+V_i=0 \ \ \ (i=\phi,\psi)
+\begin{equation}\label{KGEq}
+\ddot{\phi}_i+3H\dot{\phi_i}+\frac{dV_i}{d|\phi_i|^2}\phi_i=0 \ \ \ (i=\phi,\psi)
 \end{equation}
 \begin{equation}
 H^2=\frac{8\pi G}{3}\left[V+\frac{1}{2}\left(\dot{\phi}+\dot\psi\right)\right],
@@ -110,7 +110,7 @@ For the large scales ($k\ll aH$) it is better to work in a rotating basis of the
   \binom{\delta \sigma}{\delta s}=S^{\dagger}\binom{\delta \phi}{\delta\psi}
   \end{equation}
   where
-  \begin{equation}
+  \begin{equation}\label{angle}
   S=\begin{pmatrix}\cos\theta & -\sin\theta\\ \sin\theta & \cos\theta\end{pmatrix}, \ \ \ \tan\theta =\frac{\dot \psi}{\dot \phi}\simeq\pm \sqrt{\frac{\epsilon_\psi}{\epsilon_\phi}}
   \end{equation} 
   \end{subequations}
@@ -238,17 +238,17 @@ r\simeq 16\epsilon \sin^2\Delta\left[1-\left(\frac{4}{3}+4C\right)\epsilon +\lef
 %
 \section{Simplest scenario: The single field straight scenario and constraints for SFDM models}
 
-The simplest scenario is to consider that only one scalar field was dynamically important during inflation and the extra scalar field observer contributed to the primordial spectrum by generating only isocurvature fluctuations. Even tough the idea of adding an extra spectator that does not contribute for inflation could be considered as no necessary, there are at least two scenarios where this extra degrees of freedom can be important. First is the so called curvaton inflationary model (ref), where it is consider that this new field is responsible for the majority of the adiabatic perturbations produced during inflation. This scenario has been well studied in the literature (ref) and now a days it is one of the preferable scenarios for inflation (ref). In the other side we can consider an scenario where this extra scalar field can be used as a Dark Matter candidate, in such case we will have isocurvature constraints for our model. 
+The simplest scenario is to consider that only one scalar field was dynamically important during inflation and the extra scalar field observer contributed to the primordial spectrum by generating only isocurvature fluctuations. This scenario is obtained allways that $\rho_{SFDM}\ll \rho_{inf}$ during all the period of inflation. Even tough the idea of adding an extra spectator that does not contribute for inflation could be considered as no necessary, there are at least two scenarios where this extra degrees of freedom can be important. First is the so called curvaton inflationary model (ref), where it is consider that this new field is responsible for the majority of the adiabatic perturbations produced during inflation. This scenario has been well studied in the literature (ref) and now a days it is one of the preferable scenarios for inflation (ref). In the other side we can consider an scenario where this extra scalar field can be used as a Dark Matter candidate, in such case we will have isocurvature constraints for our model. 
 
 \subsection{SFDM spectator scenario}
 The idea of scalar fields as the DM of the Universe was first suggested in (Baldeshti et al. (1983)) and rediscovery by various authors with different names (see e.g. Membrado et al. 1989; Press et al. 1990; Sin 1994; Ji $\&$ Sin 1994; Lee $\&$ Koh 1996; Sahni $\&$ Wang 2000; Peebles 2000; Goodman 2000; Matos $\&$ Ure\~na-L\'opez 2000; Matos $\&$ Arturo Ure\~na-L\'opez 2001; Wetterich 2001; Arbey et al 2001; Woo $\&$ Chiueh 2009; Lundgren et al. 2010; Calabrese $\&$ Spergel 2016; Schwabe et al. 2016; Hui et al. 2017; Moez et al. 2017, among others), for example: SFDM (Matos $\&$ Guzm\'an 2000), fuzzy DM (HU et al. 2000), wave DM (Bray 2010; Schive et al. 2014a), Bose-Einstein condensate DM (B\"omer $\&$ Harko 2007) or ultra-light axion DM (Marsh $\&$ Ferreira 2010). \textcolor{red}{(Completar este p\'arrafo diciendo que el modelo es un candidato serio y meter m\'as referencias).} 
 
 
-In this scenario we need that the SFDM candidate being a stable spectator field and that its classical dynamics during inflation being negligible. We can obtain such scenario by considering that the trajectory in the field space evolves in the inflaton direction $\phi$ whereas the direction perpendicular to the trajectory corresponds with the SFDM $\psi$. Notice that it is necessary to have $\eta_{\sigma s}=\eta_{\psi\phi}=0$ and that our dark matter candidate evolves much slower than the inflaton. Then, we can see that the last conditions demand that the potential can be written as $V(\phi,\psi)=V(\phi)+V(\psi)$ and $\epsilon_\psi\ll \epsilon_\phi$.
+In this scenario we need that the SFDM candidate being a stable spectator field and that its classical dynamics during inflation being negligible. We can obtain such scenario by considering that the trajectory in the field space evolves in the inflaton direction $\phi$ whereas the direction perpendicular to the trajectory corresponds with the SFDM $\psi$. Notice that it is necessary that our dark matter candidate evolves much slower than the inflaton and that its density is smaller than the one associated to the inflaton. Then, we can see that the last conditions demand that $\epsilon_\psi\ll \epsilon_\phi$.
 
 During the inflationary scenario the entropy and adiabatic perturbations are uncorrelated which implies that $T_{RS}=0$ (and $C_{RS}=0$) as can be seen from \eqref{TRS} imposing initial conditions at horizon crossing. In this way we have that $\cos\Delta =0$. 
 
-As is expected from \eqref{PrAs} and \eqref{RelAs} in the inflationary scenario the primordial power spectrum for the adiabatic perturbations is produced purely by the inflaton while quantum fluctuations of the scalar field dark matter give entry to the generation of uncorrelated isocurvature perturbations. In this way the primordial power spectrum of adiabatic, isocurvature and tensor perturbations are
+As it  is expected from \eqref{PrAs} and \eqref{RelAs} in the inflationary scenario the primordial power spectrum for the adiabatic perturbations is produced purely by the inflaton while quantum fluctuations of the scalar field dark matter give entry to the generation of uncorrelated isocurvature perturbations. In this way the primordial power spectrum of adiabatic, isocurvature and tensor perturbations are
 \begin{subequations}
 \begin{equation}
 P_R=P_R|_*
@@ -283,46 +283,108 @@ $A_r^2=2.19\times 10^{-9}
 $ which implies that the perturbations for the scalar field dark matter in this scenario is given by $B^2=2.19\times 10^{-9}T_{SS}^2$ where $T_{ss}^2$ depends of the model of inflation that we are considering. It happens that in exactly de-sitter inflation $\epsilon\sim 0$ we have $T_{SS}^2=1$. 
 
 \subsubsection{Initial condition from inflation and constraining isocurvature perturbations}
-
-In this scenario and considering that the dark matter is only composed of SFDM, the perturbation evolution for photons, neutrinos, barions and dark matter start from the initial conditions $\frac{3}{4}\delta_{\gamma}=\frac{3}{4}\delta_\nu=\delta_b\simeq 0$ and $\delta_{SFDM}=A_{SFDM}$ where $\delta_{\alpha}=\delta \rho_\alpha/\rho_\alpha$ and $A_{SFDM}$ is the gauge invariant entropy perturbation
+\textit{Adiabatic initial conditions for a SFDM candidate.-} For adiabatic perturbations it is usually considerer that the initial condition for a given component of the universe $i$ is related with the one associated to radion as [ref]
 \begin{equation}
-A_{SFDM}=\delta_{SFDM}-3\frac{\delta T}{T}
+\delta_i = \frac{3}{4}(1+w_1)\delta_\gamma
 \end{equation}
-The fact that $\delta_{SFDM}\gg \delta_{\gamma}$ implies that $\delta_{SFDM}\gg 4\delta T/T$ and then $A_{SFDM}=\delta_{SFDM}$. Notice, from \textcolor{red}{(eq)}, that $\rho_{SFDM}\propto |\psi|^2$ and then we can rewrite $\delta_{SFDM}$ as 
-$\delta_{SFDM} = 2\delta \psi/\psi_i
-$,
-where $\psi_i$ is the SFDM background value during inflation. In this way we can obtain a primordial isocurvature perturbation for a SFDM candidate as
-\begin{equation}
-P_{SFDM}(k)=\left(\frac{H_*}{\pi \psi_i}\right)^2
-\end{equation}
+where $\delta_i = \delta\rho_i/\rho_i$. If in the early Universe we consider that our SFDM candidate fulfield the slow-roll condition (i.e. $\epsilon_\psi<<1$, which happens during inflation in the inflaton scenario) we have that $w_{SFDM}\simeq -1$, with $w_{SFDM}$ the equation of state associated with the SFDM particle. Then the initial adiabatic condition for our partile will be given by $\delta_{SFDM}\simeq 0$.
 
+\textit{Isocurvature initial conditions for a SFDM candidate and its constraints.-} Aditionally to the adiabatic perturnations it is neccesary to consider and constrain the isocurvature perturbations of the SFDM generated during inflation. 
 Since SFDM behaves similar to LCDM at cosmological levels, the CMB constraints on CDM isocurvature perturbations applies to SFDM as well. By relating the isocurvature power spectrum with the curvature power as
 \begin{equation}
 P_{SFDM}(k)=\frac{\beta_{iso}(k)}{1-\beta_{iso}(k)}P_R(k)
 \end{equation}
-we obtain constraints given by Planck (ref) at the pivot scale $k_0/a_0=0.05Mpc^{-1}$ and for uncorrelated and scale-invariant isocurvature perturbations 
+where $P_{SFDM}=\delta\rho_{SFDM*}/\rho_{SFDM}$, $\delta\rho_{SFDM*}$ are the isocurvature perturbations of the field generated during inflation, we obtain constraints given by Planck (ref) at the pivot scale $k_0/a_0=0.05Mpc^{-1}$ and for uncorrelated and scale-invariant isocurvature perturbations 
 \begin{equation}
 \beta_{iso}(k_0)<0.038 \ \ \ \ \ (95\%\ \ \text{C.L., TT, TE, EE$+$lowP})
 \end{equation}
-This last expression can be extrapolated to impose upper constraints to the mass for our SFDM candidate in terms of the upper limit of the tensor to scalar ratio (see (ref))
+In this way we can use the above relation in order to constraint the free parameters of our SFDM model.
+
+\textit{Massive real SFDM model.-} In this scenario we consider that the SFDM is described by the potential
+\begin{equation}
+V(\psi^2)=\frac{1}{2}m^2\psi^2
+\end{equation}
+Considering that the SFDM candidate was not coupled with the inflaton, we can write the full potential of the system as
+\begin{equation}
+V(\phi,|\psi|^2)=V(\phi)+\frac{1}{2}m^2\psi^2
+\end{equation}
+Because we need that the SFDM component does not dominates the energy density of the Universe during inflation and then obtain the single inflaton scenario, it is neccesary that 
+\begin{equation}
+m^2 < \frac{V(\phi)}{\psi_i^2}\simeq \frac{H^2_{*}M_p^2}{\psi_i^2}
+\end{equation}
+where as we mentioned above we consider that during inflation our field remains frozen  at value $\psi_i$. Notice that for an ultra-light SFDM candidate  ($m\sim 10^{-22}eV$) the above expression is fulfill for most of the initial condition value $\psi_i$. In the other side we can see from \eqref{rhosfdm} that $\rho_{SFDM}\propto |\psi|^2$ and then we can rewrite $P_{SFDM*}$ as 
+$P_{SFDM} = 2\delta \psi/\psi_i
+$, where $\psi_i$ is the SFDM background value during inflation. In this way we can obtain a primordial isocurvature perturbation for a SFDM candidate as
+\begin{equation}
+P_{SFDM}(k)=\left(\frac{H_*}{\pi \psi_i}\right)^2
+\end{equation}
+
+Since the tensor-to-scalar ratio is given by $r=P_R/P_T$ and from the Planck constraints  eq. [eq] we can restrict the mass of our scalar particle in terms of the tensor-to-scalar ratio using the relation \eqref{phi_im2} as  
 \begin{equation}
 r<2\times 10^{-4}\left(\frac{g_{*osc}}{3.36}\right)^{-3/4}\left(\frac{g_{s*osc}}{3.91}\right)\left(\frac{m}{10^{-22}}\right)^{-1/2}
 \end{equation}
-where $g_{*osc}$ and $g_{s*osc}$ are the number of degrees of freedom at SFDM and entropy oscilations. Given that our SFDM candidate starts its oscilation at radiation-domination epoch (when its mass $m\sim H$), we can take $g_{*osc}=3.36$. Taking $g_{s*osc}=3.91$ we can obtain a direct constrain for the scalar field mass for inflation as 
-\begin{equation}
+where $g_{*osc}$ and $g_{s*osc}$ are the number of degrees of freedom at SFDM and entropy oscilations. Given that our SFDM candidate starts its oscilation at radiation-domination epoch (see appendix [B]), we can take $g_{*osc}=3.36$. Taking $g_{s*osc}=3.91$ we can obtain a direct constrain for the scalar field mass for inflation as 
+\begin{equation}\label{constm}
 \frac{m}{10^{-22}\ eV}<\left(\frac{2\times 10^{-4}}{r}\right)^2
 \end{equation}
 
 In ref. (ref) it was obtained the above expression thinking in the SFDM candidate as an axion-like particle, it is, a field that is created by a missalignment mechanism. However, we can see that such result can be extrapolated for whichever SFDM candidate as general constraints for it if the scalar field coexist with the inflaton. We can observe in figure \ref{constraintsSFDM} such constraints in the m vs r plane. As we can see if $r$ is detected in the near future, it will ruled-out models where more massive scalar fields could coexist with the inflaton during inflation. This constraints are important given that in (ultra-light axion like DM must be presented during inflation) it was demonstrated that an ultra-light axion-like dark matter candidate must be presented during inflation. Then, if $r$ is detected in the near future, it could represent an strong constraint for the axion-like particle model. Notice that if we relax the scalar field mechanism under this particle is created, we should expect that this restrictions can be less affective to the model if we consider that the SFDM candidate was created after inflation. 
-
 \begin{figure}
 \includegraphics[width=8cm]{SFDMconstraints.png}
 \caption{Isocurvature constraints for the SFDM candidate.}\label{constraintsSFDM}
 \end{figure}
 
+\textit{Massive complex SFDM model.-} A massive complex scalar field is described by the potential
+\begin{equation}
+V(|\psi|^2)= m^2|\psi|^2
+\end{equation}
+As we have shown in appendix [B] when we consider a complex scalar field its dynamics is modified only by the centrifugal term (see eq. \eqref{KGe3}). However as it was demostrated in [referencias] such term does not affect the dynamics of the field at cosmological level, obtaining then that a complex scalar field and a real scalar field have the same cosmological history in the Universe. In this way if we consider that our complex SFDM fulfilled slow-roll conditions during inflation its constrictions for isocurvature perturbations must be the same than in the real field analogue. 
+
+
+\textit{Self-interacting SFDM scenario with a positive interaction.-} When the massive SFDM scenario is compared with observations there are several discrepancies about the contritions for the mass of the model. For example (\textcolor{red}{Hablar sobre las constricciones. Que unos ponen como cota inferior la masa de $10^{-21}$ mientras que otros ponen otras cotas que quedarían fuera de las totas de otros experimentos.}). For this reason it is convenient to extend the model and introduce a self-interacting term that can help us to relax this discrepancies. For simplicity we continue considering that the SF does not interact with the inflaton in such case the total potential of the system can be given by
+\begin{equation}
+V(\phi,|\psi|^2)=V(\phi)+m^2|\psi|^2+\frac{1}{2}\lambda|\psi|^4
+\end{equation}
+As we have shown in appendix [B] we have 2 different scenarios in this model: a weak interacting and a strong interacting scenario. In the weak interacting model our SFDM behaves effectively as a massive field without auto-interaction, in such case the constrictions obtained by the massive field applies to this scenario. In the other side when the auto-interacting term is big enough we obtain that in the cosmological history of the scalar field we will have a new period where the SFDM behaves as a radiation-like fluid. In this way the constrictions that we have done before will not apply to this model anymore.
+
+Before to start to study the strong scenario notice that we can give general constrictions for the auto-interacting term in terms of the ones that we have made until now. As we can see in appendix [B] we have the weakly self-interacting regime when $m^2\gg \lambda|\psi_i|^2/2$. In fact, thanks to the decreasing behavior of bout scenarios we can consider that this regime is fulfilled always that $m^2\geq \lambda|\psi_i|^2/2$ or equivalently when $\lambda\leq 2m^2/|\psi_i|^2$. Using eq. \eqref{phi_im2} we observe that this constriction can be given only in terms of the mass $m$ of the SF as
+\begin{equation}
+\left(\frac{\lambda}{10^{-96}}\right)\leq 1.2\left(\frac{m}{10^{-22}eV}\right)^{5/2}
+\end{equation}
+However if we are in the weak interacting regime the mass term $m$ is constrained by isocurvature fluctuations that can be translated in terms of the constrictions on primordial tensor perturbations by eq. \eqref{constm}. Then the above relation can be rewritten as
+\begin{equation}
+\left(\frac{\lambda}{10^{-96}}\right)\leq 1.2\left(\frac{2\times 10^{-4}}{r}\right)^5
+\end{equation}
+In figure \ref{constraintsSFDMl} we have plotted the above condition that is valid in the weak interacting regime.
+
+\begin{figure}
+\includegraphics[width=8cm]{lambdavsr.png}
+\caption{Isocurvature constraints for the weakly auto-interacting term.}\label{constraintsSFDMl}
+\end{figure} 
+
+In the strong self-interacting scenario the SF density behaves as $\rho_{SFDM}\propto |\psi|^4$ and the we can write $P_{SFDM}=4\delta\psi/\psi_i$. In this way the primordial isocurvature perturbations for a strong-interacting SFDM is given by
+\begin{equation}
+P_{SFDM}(k)=\left|\frac{2H_*}{\pi\psi_i}\right|^2
+\end{equation}
+Using eqs. \eqref{inilamb2} and \eqref{phi_im2}, using $g_{*osc}=3.36$ and $g_{s*osc}=3.91$  and considering constrictions [eq] we obtain now
+\begin{equation}
+r<\frac{1.172\times 10^{-4}}{7^{1/3}f^2(\sigma)}\left[\frac{2\left(\frac{m}{10^{-22}eV}\right)^{3/2}}{\left(\frac{\lambda}{10^{-96}}\right)}\right]^{1/2}
+x\end{equation}
+We show in figure \ref{constraintsSFDMls} constraints given for the strong scenario in terms of tensor-to-scalar ratio. As we can see as long as the mass parameter $m$ of the SF decreases, the auto-interacting term must to decrease as well in order to avoid an overproduction of gravitational waves. Comparing figures \ref{constraintsSFDM} and \ref{constraintsSFDMls} we can also notice that when we are in the strong self-interacting regime isocurvature constrictions are more restrictive, since in this scenario the non-detection of gravitational waves could ruled-out SFDM candidates with the most light masses.
+\begin{figure}
+\includegraphics[width=8cm]{stronglamb.png}
+\caption{Isocurvature constraints for the strong auto-interacting scenario.}\label{constraintsSFDMls}
+\end{figure} 
+
+\textit{Self-interacting SFDM scenario with a negative interaction.-}
+\\
+
+\textit{What about a coupling term between the inflaton and the SFDM?}
+\\
+
 \subsection{Curvaton scenario}
 
-In the curvaton scenario it is assumed that during inflation there was an extra scalar field that coexist with the inflaton and its classical dynamics was negligible (its energy density was sub-dominant during inflation). Then, similar to the SFDM scenario, this scalar field obtained quantum fluctuations, leading to the generation of primordial isocurvature perturbations. If the curvaton field is long lived (at least its life must be longer than the inflaton one) it starts to oscillate when the Hubble scale $H$ approaches the curvaton mass (see appendix [B]) shortly before or after the inflaton decays to radiation. During its oscillation phase, this curvaton field starts to behave as dust and then its perturbations are reduced slower than the ones associated with the inflaton [ref]. If the curvaton decays to radiation when its quantum fluctuations dominates over the inflaton ones, we can obtain a scenario where curvaton quantum fluctuations can dominate the early Universe and give place to be the totality of the initial adiabatic perturbations (ref). In our formalism, such scenario is obtained when $T_{RS}>>1$ or equivalently when we consider in our analysis $\sin\Delta = 0$ (ref), in such case we obtain that the tensor-to-scalar ratio in the pure curvaton scenario is $r=0$.  
+In the curvaton scenario it is assumed that during inflation there was an extra scalar field that coexist with the inflaton and its classical dynamics was negligible (its energy density was sub-dominant during inflation). Then, similar to the SFDM scenario, this scalar field obtained quantum fluctuations, leading to the generation of primordial isocurvature perturbations. If the curvaton field is long lived (at least its life must be longer than the inflaton one) it starts to oscillate when the Hubble scale $H$ approaches the curvaton mass (see appendix [B]) shortly before or after the inflaton decays to radiation. During its oscillation phase, this curvaton field starts to behave as dust and then its perturbations are reduced slower than the ones associated with the inflaton [ref]. If the curvaton decays to radiation when its quantum fluctuations dominates over the inflaton ones, we can obtain a scenario where curvaton quantum fluctuations can dominate the early Universe and give place to be the totality of the initial adiabatic perturbations (ref). In our formalism, such scenario is obtained when $T_{RS}>>1$ or equivalently when we consider in our analysis $\sin\Delta = 0$ (ref), in such case we obtain that the tensor-to-scalar ratio in the pure curvaton scenario is $r=0$. 
 
 In the last few years people has started to study curvaton models but considering that the curvaton field does not constribute for the totality of the primordial adiabatic perturbations, instead, it contributes to a fraction of the total curvature perturbations, while the remaining one was produced by the inflaton (ref). Notice that such scenario is obtained if $0<\cos\Delta <1$. It is also usual to redefine a new parameter in this model $R= [\cot^2\Delta]_{k_0}$ which can be related with the curvaton-to-inflaton density fraction of primordial curvature perturbations. Then, the primordial adiabatic perturbations can be written from \eqref{PrAs} as
 \begin{equation}\label{PCr}
@@ -403,8 +465,163 @@ and
 \eta_{\sigma s}&=&(\eta_{\psi\psi}-\eta_{\phi\phi})\sin\theta\cos\theta + \eta_{\phi\psi}(\cos^2\theta-\sin^2\theta)\\
 \eta_{ss}&=&\eta_{\phi\phi}\sin^2\theta - 2\eta_{\phi\psi}\cos\theta\sin\theta+\eta_{\psi\psi}\cos^2\theta\nonumber 
 \end{eqnarray}
+\section{Generalities for SFDM models}
 
-\section{Papers}
+In order to constraint our SFDM model using our isocurvature constrictions it is necessary to relate the value of the field now with the value that it has during inflation. This constrictions depend on the SFDM model that we consider. In this appendix we analyze the evolution of different models for SFDM and then in [section], with the help of isocurvature constrictions, try to constraint the free parameters of our models. 
+
+In this scenario our scalar field can be coupled or not with the inflaton, then we consider the general potential of the form $V(\phi,|\psi|^2)$, where in such case it is convenient to work using a Madelung transformation [ref]
+\begin{equation}
+\psi = \eta \exp[i\theta]
+\end{equation}
+where $\eta\equiv |\psi|$ is the magnitude of field $\psi$ and $\theta$ its phase. Notice that in order to obtain a slow-roll approximation it is neccesary that $|\theta|<<1$ and $\eta$ fulfill the slow-roll condition during inflation. Since we are interested in the complete history of the SFDM in the Universe let us rewrite and separate the KG equation in its real and imaginary components as
+\begin{subequations}\label{KESFDM}
+\begin{equation}\label{KGe1}
+\ddot\eta+3H\dot\eta+\frac{dV}{d|\psi|^2}\eta-\omega^2\eta= 0,
+\end{equation}
+\begin{equation}\label{KGe2}
+\dot\omega \eta + (2\dot\eta+3H\eta)\omega=0
+\end{equation}
+\end{subequations}
+where $\omega = \dot \theta$, while the equation of the inflaton field continue being eq. \eqref{KGEq}. Equation \eqref{KGe2} can be exactly integrated as
+\begin{equation}
+\frac{d}{dt}\left(a^3\eta^2\omega\right)=0
+\end{equation}
+wich implies that 
+\begin{equation}
+a^3\eta^2\omega=Q
+\end{equation}
+where $Q$ is a charge of the SF \textcolor{red}{(poner referencia Abril y las que hay dentro)}. Using this last equation in \eqref{KGe1} we obtain finally
+that the radial component of the scalar field fulfill
+\begin{equation}\label{KGe3}
+\ddot\eta+3H\dot\eta+M^2\eta-\frac{Q^2}{\eta^3}= 0,
+\end{equation}
+The term containing $Q$ is obtained by the complex nature of the SF [ref] an it can be interpreted as a "cenrifugal force" [ref]. In the other side $M\equiv dV/d|\psi|^2$ can be interpreted as an effective mass term of the scalar field. Notice here that if we consider $Q^2/\eta^3\ll 1$ and we suppose that the SFDM candidate fulfill the slow-roll condition during inflation, the field $\eta$ will remain frozen at value $\eta_i$ until $H\sim M$. Then, when $H\sim M$ it will start to evolve depending on the behavior of the effective mass term.
+\begin{center}
+\textit{A real massive SFDM candidate}
+\end{center}
+
+A massive real scalar field is described by the potential 
+\begin{equation}
+V = \frac{1}{2}m^2\psi^2
+\end{equation}
+Then we have that in equations \eqref{KESFDM} $\eta=\psi$ and $\theta=0$ which implies that $\omega=0$ and then $Q = 0$. We consider for simplicity that our SFDM candidate was not coupled with our inflaton field, in such case we can rewrite the total potential during inflation as
+
+\begin{equation}
+V(\phi,|\psi|)=V(\phi)+\frac{1}{2}m^2\psi^2
+\end{equation}
+In this way we can see that $M^2=m^2$. As we mentioned above when $H\gg m^2$ the therm that contains $m^2$ in equation \eqref{KGe1} can be neglected and then the field $\psi$ remains frozen at its initial value by Hubble dragging during the early universe. Then, when $m\sim H$ the SFDM starts to evolve. Given that the effective mass of the field is constant, the dependence of phi respect to $a$ during the oscillating phase is $\psi\sim 1/a^{3/2}$, while its density behaves as $\rho_{\psi}\sim 1/a^3$  [ref]. In this way we can write the scalar density of our field as
+\begin{equation}\label{rhosfdm}
+\rho_\psi = \left\lbrace\begin{array}{ll}
+\frac{1}{2}m^2\psi_i^2 & \text{where }H\gg m \\
+\frac{1}{2}m^2\psi_i^2\left(\frac{a_{osc}}{a}\right)^3 & \text{where }H\ll m
+\end{array}\right .
+\end{equation}
+
+The typical mass that it is considered for a SFDM candidate is around $10^{-22} eV$ [ref] which implies that the field should starts its oscilations during a radiation-dominated Universe [ref]. During this period the Hubble parameter evolves in terms of the scale factor as $H\propto a^{-2}$. We can solve the KG equation \eqref{KGEq} exactly during this period in terms of the scale factor obtaining
+\begin{equation}
+\psi = \psi_i\Gamma\left(\frac{5}{4}\right)\left(\frac{4H}{m}\right)^{1/4}J_{1/4}\left(\frac{m}{2H}\right)
+\end{equation}
+where $\psi_i$ is the scalar field value during inflation and it was imposed initial condition for $\psi$ in such a way that when $m/H\rightarrow 0$ we obtain $\psi\rightarrow\psi_i$. If now we consider that in the above expression we obtain the $H\ll m$ behavior of equation \eqref{rhosfdm} when $m/H\rightarrow \infty$ we obtain that
+\begin{equation}\label{m_osc}
+\frac{m^2}{H_{osc}^2}\simeq 2.68
+\end{equation}
+whit $H_{osc}$ the value of the Hubble parameter at the momment when the SFDM starts its oscilations.
+
+Using the relation for a radiation-dominated Universe
+\begin{equation}
+\rho_r = 3M_p^2H^2=\frac{\pi^2}{30}g_*T^4
+\end{equation}
+where $M_p\equiv (8\pi G)^{-1/2}$ is the Planck mass and $g_*$ the effective degrees of freedom, and \eqref{m_osc} we can obtain the temperature when our SFDM particle starts its oscilations
+\begin{equation}
+T_{osc}\simeq 0.5 keV\left(\frac{g_{*osc}}{3.36}\right)^{-1/4}\left(\frac{m}{10^{-22}eV}\right)^{1/2}
+\end{equation}
+where we have left the values inside the parentesis for $g_{*osc}$ and $m$ by convenience since our ultra-light particle starts its oscilations during a radiation-dominated era. 
+
+Finally, using that the entropy of the Universe is conserved we can express the actual density of SFDM particles as
+\begin{equation}
+\rho_{DFDM0}=\frac{1}{2}m^2\psi_i^2\frac{s_0}{s_{osc}}
+\end{equation}
+where the subscript ``$0$" indicates quantites at present. Using the relation that $s=\frac{2\pi}{45}g_{*}T^3$ and the constraints given by Planck [ref] for the actual amount of Dark Matter content $\Omega_{DM}h^2=0.1186\pm 0.0020$ $68\% C.L., TT. + lowP+\text{lensing}$ we finally obtain 
+\begin{equation}\label{phi_im2}
+|\psi_i|^2\simeq\frac{10^{34}GeV^2}{0.6}\left(\frac{g_{*osc}}{3.36}\right)^{-3/4}\left(\frac{g_{s*osc}}{3.91}\right)\left(\frac{m}{10^{-22}eV}\right)^{-1/2}
+\end{equation}
+
+\begin{center}
+\textit{A complex massive SFDM candidate}
+\end{center}
+
+Let us consider now a complex scalar field which is not coupled with the inflaton. This scenario is obtained by considering a complete potential of the form
+\begin{equation}
+V(\phi,|\psi|^2)=V(\phi)+m^2|\psi|^2
+\end{equation}
+As we saw in the real case in order to avoid isocurvature perturbations it is neccesary that the scalar field starts from a high value of $\eta_i$ in such case we can ignore the last term in eq. \eqref{KGe3}. In the other side considering the same argument than in the real case we can see that the SF value remains frozen until $m\sim H$ and then it starts to oscilate. In [ref] it was demostrated that a massive complex scalar field behaves equivalent to the real case at cosmological levels, being such term important only at galactic levels. Taking this in mind we can consider that all what we did in the real case applies to this case and then a complex scalar field has the same constrictions than the real one. 
+\begin{center}
+\textit{Self-interacting Scalar Field with a positive interaction}
+\end{center}
+
+We consider in this section a self-interacting scalar field with a positive interaction. This scenario is described by the potential associated with the SFDM
+\begin{equation}
+V = m^2|\psi|^2+\frac{1}{2}\lambda |\psi|^4
+\end{equation}
+If we consider that our SF was not coupled with the inflaton we will have that the complete dynamics of the system is obtained with the full potential 
+\begin{equation}
+V(\phi,|\psi|^2)=V(\phi)+m^2|\psi|^2+\frac{1}{2}\lambda|\psi|^4
+\end{equation}
+Notice that the effective mass of the field is $M^2=m^2+\lambda|\psi|^2$. Thanks to the slow-roll condition imposed during inflation the effective mass of the field remains constant at $M^2=m^2+\lambda|\psi_i|^2$ until $M\sim H$, then, depending on what term dominates in $M^2$ we can have two different kind of dynamics. 
+\\
+
+\textit{Weakly self-interacting regime.-} This limit is obtained when the constant term in $M^2$ dominates, it is when
+\begin{equation}\label{consw}
+m^2\gg \frac{1}{2}\lambda|\psi_i|^2
+\end{equation}
+In this regime it is possible to ignore the autointeracting term in equation \eqref{KGe3} when oscilations of the scalar field begins. However, because when we ignore such term the field behaves as a massive field and as we can see in \eqref{rhosfdm} the field value always decreases, the autointeracting term never dominates and then all the cosmological history of the SFDM candidate is the same than in the pure massive scenario. 
+\\
+
+\textit{Strong self-interacting regime.-} This scenario is obtained when 
+\begin{equation}
+m^2\ll \frac{1}{2}\lambda|\psi_i|^2
+\end{equation}
+If the above expression is fulfilled we can see that at the moment when the SFDM starts its oscillations ($M\sim H$) its effetive mass is quadratic in the field. In that regime the scalar field evolves as $\psi\sim 1/a$ and its energy density as $\rho_{\psi}\sim 1/a^4$ behaving as radiation. Then, when $m^2\sim \sim \frac{1}{2}\lambda|\psi_t|^2$ we obtain that the effective scalar field mass is now constant, obtaining the dust-like behavior that we analyze before. Here $\psi_t$ is the valur of the SF at the momment when the constant term in $M$ starts to dominate. In this way we can write the history of the scalar density of our field as
+\begin{equation}\label{rhosfdmlam}
+\rho_\psi = \left\lbrace\begin{array}{ll}
+\frac{1}{2}\lambda^2|\psi_i|^4 & \text{where }H\gg \lambda|\psi_i|^4 \\
+\frac{1}{2}\lambda|\psi_i|^4\left(\frac{a_{osc}}{a}\right)^4 & \text{where }H_t\leq \lambda|\psi_i|^4\leq H\\
+m^2|\psi_t|^2\left(\frac{a_t}{a}\right)^3 & \text{where } m^2\leq H_t
+\end{array}\right .
+\end{equation}
+Here sub-index $t$ means quantities measured at transition between radiation and dust behavior of the SFDM and
+\begin{equation}\label{inilamb}
+|\psi_i|^2=\left[\frac{2m^2}{\lambda}|\psi_t|^2\right]^{1/2}\left(\frac{a_t}{a_{osc}}\right)^2
+\end{equation}
+Notice that we have consider for simplicity a direct transition between radiation-like to dust-like densities. 
+
+In order to continue it is necessary to specify the value of $a_t$ and $a_s$. Since the auto-interacting KG equation can not be solved exactly it is necessary to work with approximated solutions. In [Suarez and Chavanis] it was obtained using a pure approximated description of the system the relation (see its equation 80 and 86)
+\begin{subequations}
+\begin{equation}\label{atoveras}
+\left(\frac{a_t}{a_{osc}}\right)^2=\frac{3}{7^{1/3}f^2(\frac{a_s}{r_S})}
+\end{equation}
+where 
+\begin{equation}
+f(\sigma)=\frac{1}{s^{1/3}(1+4s)^{1/6}}
+\end{equation}
+with
+\begin{equation}
+s=\frac{4\sigma-1+\sqrt{(4\sigma-1)^2+12\sigma}}{6}
+\end{equation}
+\end{subequations}
+Additionally $r_S=2mG/c^2$ and $a_s=\hbar^2\lambda/4\pi m$ which implies that $a_s/r_s=\lambda M_p^2/m^2$, where $M_p^2\equiv\hbar c/8\pi G$ is the Planck mass. Rearranging it in a more convenient way we have
+\begin{equation}
+\sigma \simeq 5.93\times 10^{
+2}\left(\frac{m}{10^{-22}eV}\right)^{-2}\left(\frac{\lambda}{10^{-96}}\right)
+\end{equation}
+Notice that when $a_t/a_{osc}\simeq 1$ i.e. when $3/(7^{1/3}f^2(\sigma))\sim 1$ there is not a radiation-like epoch. This scenario should match with the non-interacting scenario that we studied before.
+
+Inserting equation \eqref{atoveras} into \eqref{inilamb} follows
+\begin{equation}\label{inilamb2}
+|\psi_i|^2=\frac{3}{7^{1/3}f^2(\sigma)}\left[\frac{2m^2}{\lambda}|\psi_t|^2\right]^{1/2}
+\end{equation}
+But the above relation means that it is enough to match the value of the field at $\psi_t$ with the value at present and then with the above relation we can obtain the value that the SF has during inflation. In the other side notice that at $a_t$ the scalar field starts to behave as dust with an effective mass $M^2=m^2+\lambda|\psi_t|^2$. This implies that dust-like oscillations of the SF start a little before than the non-interacting case. If we allow $m$ to be ultralight $(m\sim 10^{-22}eV)$ and thanks to the fact that $m^2$ is of the same order that $\lambda|\psi_t|^2$ we can see that such oscillation starts at the same epoch that the non-interacting case does. In fact we can see that because the decreasing behavior of the SF at that period ($\psi\sim 1/a^{3/2}$) the auto-interacting term left to be important quickly and then the dynamics of the field is quickly described only by the mass term $m$. We consider. for simplicity that once the dust-like behavior starts, the dynamics is described similar to  the non-interacting case, in such case the condition \eqref{phi_im2} is fulfilled by our SF as well, but interchanging subindex $i$ with $t$\footnote{In fact this is a lower boundary for the strong auto-interacting case.}.
+\section{Papers} 
 Aqu\'i pondré de mientras los links de los papers que he revisado:
 
 https://arxiv.org/pdf/1712.05364.pdf
@@ -412,4 +629,15 @@ https://arxiv.org/pdf/1712.05364.pdf
 https://arxiv.org/pdf/1505.00639.pdf
 
 https://arxiv.org/pdf/astro-ph/0306500.pdf
+
+https://arxiv.org/pdf/1708.05681.pdf
+
+https://arxiv.org/pdf/1211.3535.pdf
+
+https://arxiv.org/pdf/1507.00119.pdf
+
+https://arxiv.org/pdf/1801.07409.pdf
+
+https://arxiv.org/pdf/1305.5338.pdf
 \end{document}
+
