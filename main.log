@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.14)  28 MAY 2018 04:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.14)  12 JUN 2018 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -65,14 +65,16 @@ Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
 \@bibdataout=\write3
 \widetext@top=\box39
 \widetext@bot=\box40
-Class revtex4-1 Info: Selecting society aps on input line 7542.
+
+Class revtex4-1 Warning: No Society specified, using default society aps.
+
 (/usr/share/texlive/texmf-dist/tex/latex/revtex/aps4-1.rtx
 File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 )
-Class revtex4-1 Info: Selecting journal prl on input line 7544.
-Class revtex4-1 Info: APS journal PRL selected on input line 7545.
+Class revtex4-1 Info: Selecting journal prd on input line 7544.
+Class revtex4-1 Info: APS journal PRD selected on input line 7545.
 
 
 Class revtex4-1 Warning: No type size specified, using default 10.
@@ -85,6 +87,17 @@ Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
 (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -101,6 +114,8 @@ Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 (/usr/share/texlive/texmf-dist/tex/latex/revtex/revsymb4-1.sty
 Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
+LaTeX Info: Redefining \frak on input line 95.
+LaTeX Info: Redefining \Bbb on input line 111.
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -108,7 +123,7 @@ Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
@@ -142,15 +157,15 @@ Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen104
 \extrarowheight=\dimen105
-\NC@list=\toks17
+\NC@list=\toks18
 \extratabsurround=\skip46
 \backup@length=\skip47
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup4
-\symboldletters=\mathgroup5
-\symboldsymbols=\mathgroup6
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
@@ -164,7 +179,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
+\@emptytoks=\toks19
 \ex@=\dimen106
 )
 LaTeX Info: Redefining \text on input line 28.
@@ -197,36 +212,24 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \dotsspace@=\muskip11
 \c@parentequation=\count103
 \dspbrk@lvl=\count104
-\tag@help=\toks19
+\tag@help=\toks20
 \row@=\count105
 \column@=\count106
 \maxfields@=\count107
-\andhelp@=\toks20
+\andhelp@=\toks21
 \eqnshift@=\dimen109
 \alignsep@=\dimen110
 \tagshift@=\dimen111
 \tagwidth@=\dimen112
 \totwidth@=\dimen113
 \lineht@=\dimen114
-\@envbody=\toks21
+\@envbody=\toks22
 \multlinegap=\skip49
 \multlinetaggap=\skip50
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup7
-\symAMSb=\mathgroup8
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-LaTeX Info: Redefining \frak on input line 111.
-LaTeX Info: Redefining \Bbb on input line 113.
-))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -380,56 +383,50 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsavesec=\count120
 \c@@ppsaveapp=\count121
 )
+Package color Info: Redefining color purple on input line 18.
+
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 \c@subfigure=\count122
 \c@subtable=\count123
 )
-Class revtex4-1 Info: Patching array package. on input line 30.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 30.
+Class revtex4-1 Info: Patching array package. on input line 23.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 23.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 30.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 30.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 30.
-
-
-LaTeX Warning: Unused global option(s):
-    [usenatbib].
-
-(./main.aux
-
-LaTeX Warning: Label `inilamb2' multiply defined.
-
-)
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 23.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 23.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 23.
+ (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count124
 \scratchdimen=\dimen126
 \scratchbox=\box43
 \nofMPsegments=\count125
 \nofMParguments=\count126
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks24
 \MPscratchCnt=\count127
 \MPscratchDim=\dimen127
 \MPnumerator=\count128
 \makeMPintoPDFobject=\count129
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks25
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -446,7 +443,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -456,9 +453,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count130
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -466,15 +463,15 @@ LaTeX Info: Redefining \nameref on input line 30.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 30.
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 23.
 \openout3 = `mainNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -489,287 +486,309 @@ Class revtex4-1 Warning: If you want your keywords to appear in your output, us
 e document class option showkeys.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<SFDMconstraints.png, id=171, 405.515pt x 276.03125pt>
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--305
+
+ []
+
+[4] <SFDMconstraints.png, id=248, 405.515pt x 276.03125pt>
 File: SFDMconstraints.png Graphic file (type png)
 
 <use SFDMconstraints.png>
-Package pdftex.def Info: SFDMconstraints.png used on input line 335.
+Package pdftex.def Info: SFDMconstraints.png used on input line 341.
 (pdftex.def)             Requested size: 227.62204pt x 154.94287pt.
- [4]
-Missing character: There is no √ in font cmr10!
-Missing character: There is no ≠ in font cmr10!
 
-Underfull \hbox (badness 7099) in paragraph at lines 346--347
-[]\OT1/cmr/m/it/10 Self-interacting SFDM sce-nario with a pos-i-tive
+Underfull \hbox (badness 10000) in paragraph at lines 338--344
+
  []
 
 
-Package caption Warning: \label without proper reference on input line 357.
-See the caption package documentation for explanation.
+Underfull \hbox (badness 10000) in paragraph at lines 348--350
+
+ []
 
 
-LaTeX Warning: Reference `weakregime' on page 5 undefined on input line 356.
+Underfull \hbox (badness 4132) in paragraph at lines 351--352
+[]\OT1/cmr/m/it/10 Self-interacting SFDM sce-nario with a re-pul-sive
+ []
 
-<weakregime.png, id=193, 410.53375pt x 273.02pt>
+[5 <./SFDMconstraints.png>] <weakregime.png, id=278, 410.53375pt x 273.02pt>
 File: weakregime.png Graphic file (type png)
- <use weakregime.png>
-Package pdftex.def Info: weakregime.png used on input line 358.
+
+<use weakregime.png>
+Package pdftex.def Info: weakregime.png used on input line 363.
 (pdftex.def)             Requested size: 227.62204pt x 151.37375pt.
- [5 <./SFDMconstraints.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 369.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 369.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-<lambdavsr.png, id=212, 405.515pt x 276.03125pt>
+ <lambdavsr.png, id=284, 405.515pt x 276.03125pt>
 File: lambdavsr.png Graphic file (type png)
- <use lambdavsr.png>
-Package pdftex.def Info: lambdavsr.png used on input line 375.
-(pdftex.def)             Requested size: 227.62204pt x 154.94287pt.
 
-<stronglamb.png, id=219, 404.51125pt x 279.0425pt>
+<use lambdavsr.png>
+Package pdftex.def Info: lambdavsr.png used on input line 385.
+(pdftex.def)             Requested size: 227.62204pt x 154.94287pt.
+ [6 <./weakregime.png> <./lambdavsr.png>]
+<stronglamb.png, id=313, 404.51125pt x 279.0425pt>
 File: stronglamb.png Graphic file (type png)
  <use stronglamb.png>
-Package pdftex.def Info: stronglamb.png used on input line 393.
+Package pdftex.def Info: stronglamb.png used on input line 417.
 (pdftex.def)             Requested size: 227.62204pt x 157.02061pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--403
-
- []
-
-[6 <./weakregime.png> <./lambdavsr.png> <./stronglamb.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 411--414
-
- []
-
-
-Underfull \hbox (badness 5519) in paragraph at lines 415--418
-[]\OT1/cmr/m/it/10 Self-interacting SFDM sce-nario with a neg-a-tive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--421
-
- []
-
-[7]
-Overfull \hbox (0.58769pt too wide) detected at line 450
+[7 <./stronglamb.png>] [8]
+Overfull \hbox (0.58769pt too wide) detected at line 512
 []\OML/cmm/m/it/10 n[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1 = \OMS/cmsy/m/n/1
 0 ^^@[]\OML/cmm/m/it/10 r \OT1/cmr/m/n/10 + [] []
  []
 
 
-Package caption Warning: \label without proper reference on input line 469.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `curv50' on page 8 undefined on input line 451.
-
-
-Package caption Warning: \label without proper reference on input line 478.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `curv60' on page 8 undefined on input line 451.
-
-<nvsr.png, id=254, 400.49625pt x 269.005pt>
-File: nvsr.png Graphic file (type png)
- <use nvsr.png>
-Package pdftex.def Info: nvsr.png used on input line 454.
-(pdftex.def)             Requested size: 203.99689pt x 137.02243pt.
-
-<p150.png, id=255, 391.4625pt x 285.065pt>
-File: p150.png Graphic file (type png)
- <use p150.png>
-Package pdftex.def Info: p150.png used on input line 465.
-(pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
-
-<p250.png, id=256, 391.4625pt x 285.065pt>
-File: p250.png Graphic file (type png)
- <use p250.png>
-Package pdftex.def Info: p250.png used on input line 466.
-(pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
-
-<p350.png, id=257, 391.4625pt x 285.065pt>
-File: p350.png Graphic file (type png)
- <use p350.png>
-Package pdftex.def Info: p350.png used on input line 467.
-(pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
-
-<p450.png, id=258, 391.4625pt x 285.065pt>
-File: p450.png Graphic file (type png)
- <use p450.png>
-Package pdftex.def Info: p450.png used on input line 468.
-(pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
-
-Overfull \hbox (264.0pt too wide) in paragraph at lines 464--471
- [][] 
- []
-
-<p160.png, id=259, 391.4625pt x 285.065pt>
-File: p160.png Graphic file (type png)
- <use p160.png>
-Package pdftex.def Info: p160.png used on input line 473.
-(pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
-
-<p260.png, id=260, 391.4625pt x 285.065pt>
-File: p260.png Graphic file (type png)
- <use p260.png>
-Package pdftex.def Info: p260.png used on input line 474.
-(pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
-
-<p360.png, id=261, 391.4625pt x 285.065pt>
-File: p360.png Graphic file (type png)
- <use p360.png>
-Package pdftex.def Info: p360.png used on input line 474.
-(pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
-
-<p460.png, id=262, 391.4625pt x 285.065pt>
-File: p460.png Graphic file (type png)
- <use p460.png>
-Package pdftex.def Info: p460.png used on input line 475.
-(pdftex.def)             Requested size: 203.99689pt x 148.55217pt.
-
-Overfull \hbox (264.0pt too wide) in paragraph at lines 472--480
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 21.20868pt on input line 481.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8 <./nvsr.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 510.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 510.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+LaTeX Warning: Reference `n_R ' on page 9 undefined on input line 513.
 
 [9]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 582.
+Package caption Warning: \label without proper reference on input line 540.
+See the caption package documentation for explanation.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 582.
+LaTeX Warning: Reference `curv50' on page 10 undefined on input line 521.
 
 
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+Package caption Warning: \label without proper reference on input line 551.
+See the caption package documentation for explanation.
 
 
-Overfull \hbox (1.35594pt too wide) detected at line 586
+LaTeX Warning: Reference `curv60' on page 10 undefined on input line 521.
+
+<nvsr.png, id=406, 400.49625pt x 269.005pt>
+File: nvsr.png Graphic file (type png)
+ <use nvsr.png>
+Package pdftex.def Info: nvsr.png used on input line 524.
+(pdftex.def)             Requested size: 203.99689pt x 137.02243pt.
+
+<p150.png, id=407, 436.63126pt x 311.1625pt>
+File: p150.png Graphic file (type png)
+ <use p150.png>
+Package pdftex.def Info: p150.png used on input line 534.
+(pdftex.def)             Requested size: 91.80186pt x 65.42201pt.
+
+<p250.png, id=408, 436.63126pt x 311.1625pt>
+File: p250.png Graphic file (type png)
+ <use p250.png>
+Package pdftex.def Info: p250.png used on input line 535.
+(pdftex.def)             Requested size: 91.80186pt x 65.42201pt.
+
+<p350.png, id=409, 436.63126pt x 311.1625pt>
+File: p350.png Graphic file (type png)
+ <use p350.png>
+Package pdftex.def Info: p350.png used on input line 536.
+(pdftex.def)             Requested size: 91.80186pt x 65.42201pt.
+
+<p450.png, id=410, 436.63126pt x 311.1625pt>
+File: p450.png Graphic file (type png)
+ <use p450.png>
+Package pdftex.def Info: p450.png used on input line 537.
+(pdftex.def)             Requested size: 91.80186pt x 65.42201pt.
+
+<p550.png, id=411, 436.63126pt x 311.1625pt>
+File: p550.png Graphic file (type png)
+ <use p550.png>
+Package pdftex.def Info: p550.png used on input line 538.
+(pdftex.def)             Requested size: 91.80186pt x 65.42201pt.
+
+<p650.png, id=412, 436.63126pt x 309.155pt>
+File: p650.png Graphic file (type png)
+ <use p650.png>
+Package pdftex.def Info: p650.png used on input line 539.
+(pdftex.def)             Requested size: 91.80186pt x 64.99994pt.
+
+Overfull \hbox (60.00311pt too wide) in paragraph at lines 533--542
+[][] 
+ []
+
+<p160.png, id=413, 436.63126pt x 311.1625pt>
+File: p160.png Graphic file (type png)
+ <use p160.png>
+Package pdftex.def Info: p160.png used on input line 544.
+(pdftex.def)             Requested size: 91.80186pt x 65.42201pt.
+
+<p260.png, id=414, 436.63126pt x 311.1625pt>
+File: p260.png Graphic file (type png)
+ <use p260.png>
+Package pdftex.def Info: p260.png used on input line 545.
+(pdftex.def)             Requested size: 91.80186pt x 65.42201pt.
+
+<p360.png, id=415, 436.63126pt x 311.1625pt>
+File: p360.png Graphic file (type png)
+ <use p360.png>
+Package pdftex.def Info: p360.png used on input line 545.
+(pdftex.def)             Requested size: 91.80186pt x 65.42201pt.
+
+<p460.png, id=416, 436.63126pt x 311.1625pt>
+File: p460.png Graphic file (type png)
+ <use p460.png>
+Package pdftex.def Info: p460.png used on input line 546.
+(pdftex.def)             Requested size: 91.80186pt x 65.42201pt.
+
+<p560.png, id=417, 436.63126pt x 311.1625pt>
+File: p560.png Graphic file (type png)
+ <use p560.png>
+Package pdftex.def Info: p560.png used on input line 547.
+(pdftex.def)             Requested size: 91.80186pt x 65.42201pt.
+
+<p660.png, id=418, 436.63126pt x 309.155pt>
+File: p660.png Graphic file (type png)
+ <use p660.png>
+Package pdftex.def Info: p660.png used on input line 548.
+(pdftex.def)             Requested size: 91.80186pt x 64.99994pt.
+
+Overfull \hbox (60.00311pt too wide) in paragraph at lines 543--553
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./nvsr.png> <./p150.png> <./p250.png> <./p350.png> <./p450.png> <./p550.pn
+g> <./p650.png> <./p160.png> <./p260.png> <./p360.png> <./p460.png> <./p560.png
+> <./p660.png>]
+
+LaTeX Warning: Reference `madelung' on page 11 undefined on input line 584.
+
+[11]
+Overfull \hbox (1.35594pt too wide) detected at line 659
 []\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10  []\OMS/cmsy/m/n/10 j[] ' [] [][] [] [][]
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 608--611
+Underfull \hbox (badness 7221) in paragraph at lines 681--684
 \OT1/cmr/m/n/10 Notice that the ef-fec-tive mass of the field is
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 608--611
-\OT1/cmr/m/n/10 tion im-posed dur-ing in-fla-tion the ef-fec-tive mass of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 608--611
+Underfull \hbox (badness 10000) in paragraph at lines 681--684
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--618
+Underfull \hbox (badness 10000) in paragraph at lines 688--691
 
  []
 
-[10]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 649.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 649.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 661--664
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 695--698
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 671.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 705.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 671.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 705.
+
+Underfull \hbox (badness 10000) in paragraph at lines 710--711
+ 
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 752--754
+ \OT1/cmr/m/n/10 Notice that when $\OML/cmm/m/it/10 a[]=a[] \OMS/cmsy/m/n/10 ' 
+\OT1/cmr/m/n/10 1$ i.e. when
+ []
+
+[13]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
 
+Underfull \hbox (badness 5050) in paragraph at lines 812--813
+ \OT1/cmr/m/n/9 (2006) 043529; DOI: 10.1103/Phys-RevD.74.043529;
+ []
+
+[14]
+Underfull \hbox (badness 1024) in paragraph at lines 825--826
+ []\OT1/cmr/m/n/9 P. A. R. Ade et al. (Planck); DOI: 10.1051/0004-
+ []
+
+Missing character: There is no √ in font cmr9!
+Missing character: There is no ∂ in font cmr9!
+Missing character: There is no √ in font cmr9!
+Missing character: There is no ± in font cmr9!
+
+Underfull \hbox (badness 3861) in paragraph at lines 856--857
+ []\OT1/cmr/m/n/9 Membrado M., Pacheco A. F., Saudo J., 1989,
+ []
+
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no Å in font cmr9!
+
+Underfull \hbox (badness 10000) in paragraph at lines 952--953
+ []\OT1/cmr/m/n/9 http://iopscience.iop.org/article/10.1088/1475-
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 1001--1014
+ []\OT1/cmr/m/n/9 T. Suyama, T. Taka-hashi, M. Ya-m-aguchi and S.
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 1001--1014
+ \OT1/cmr/m/n/9 Yokoyama, On Clas-si-fi-ca-tion of Mod-els of Large
+ []
+
 No file main.bbl.
-[11] [12 <./p150.png> <./p250.png> <./p350.png> <./p450.png> <./p160.png> <./p2
-60.png> <./p360.png> <./p460.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 710.
+[15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1036.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 710.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 710.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1036.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1036.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1EA4F085B129CE489F741B9F171A7306;1435.
+(rerunfilecheck)             Checksum: 94CF0F3D4235A21A25CA5A621110BBE3;1679.
 
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
 
  ) 
 Here is how much of TeX's memory you used:
- 9467 strings out of 493029
- 137088 string characters out of 6136234
- 268558 words of memory out of 5000000
- 12717 multiletter control sequences out of 15000+600000
- 16807 words of font info for 62 fonts, out of 8000000 for 9000
+ 9792 strings out of 493029
+ 141352 string characters out of 6136234
+ 283605 words of memory out of 5000000
+ 12957 multiletter control sequences out of 15000+600000
+ 14948 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,39p,1488b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{frontmatter.3} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{frontmatter.2} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{frontmatter.1} has been referenced but does not exi
-st, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (12 pages, 615833 bytes).
+ 36i,11n,39p,1847b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+symbols/msbm10.pfb>
+Output written on main.pdf (15 pages, 865594 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
- 381 compressed objects within 4 object streams
- 154 named destinations out of 1000 (max. 500000)
- 210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 686 PDF objects out of 1000 (max. 8388607)
+ 605 compressed objects within 7 object streams
+ 241 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 
