@@ -158,29 +158,31 @@ H^2\simeq \frac{8\pi G}{3}V\left(1+\frac{1}{3}\epsilon^H\right),
 where $\epsilon^H$ is a new slow-roll parameter defined in appendix [A]. 
 The set of differential equations, (\ref{eq:in_1}) and (\ref{eq:in_2}),  
 describes the classical dynamics of bout scalar fields during the inflationary era.
-\jav{aqui me quede}
+
 %%%-------------------------------------------------------------------------------------------%%%
 \subsection{Adiabatic and Isocurvature perturbations}
 %%%-------------------------------------------------------------------------------------------%%%
 
 
-The equation of motion for the perturbed fields in the spatially flat gauge are
+The equation of motion for the perturbed fields, in the spatially flat gauge, are
 \begin{equation}
 \ddot{\delta\phi}_i+3H\dot{\delta\phi}_i+\sum_j\left[V_{ij}-\frac{8\pi G}{a^3}\frac{d}{dt}\left(\frac{a^3}{H}\dot{\phi}_i \dot\phi_j\right)\right]\delta\phi_j=0.
 \end{equation}
-For the large scales ($k\ll aH$) it is better to work in a rotating basis of the fields given by
+For large scales ($k\ll aH$) \jav{and for small scales? or what'd be the difference?} it is better to work in a rotating basis of the fields given by
   \begin{subequations}
   \begin{equation}
   \binom{\delta \sigma}{\delta s}=S^{\dagger}\binom{\delta \phi}{\delta\psi},
   \end{equation}
-  where
+  with
   \begin{equation}\label{angle}
   S=\begin{pmatrix}\cos\theta & -\sin\theta\\ \sin\theta & \cos\theta\end{pmatrix}, \ \ \ \tan\theta =\frac{\dot \psi}{\dot \phi}\simeq\pm \sqrt{\frac{\epsilon_\psi}{\epsilon_\phi}}.
   \end{equation} 
   \end{subequations}
-The field $\sigma$ is parallel to the trajectory in field space and is usually called \textit{adiabatic field} while the field  $s$ is perpendicular and called \textit{entropy field}. 
-
-If the background trajectory is curved it happens that $\delta\sigma$ and $\delta s$ are correlated at the Hubble exit. In this way the power spectrum and cross-correlation at Hubble exit is given by
+The field $\sigma$ is parallel to the trajectory of the field space and  
+usually called \textit{adiabatic field}, while the field  $s$ is perpendicular and called \textit{entropy field}. 
+%
+If the background trajectory is curved then $\delta\sigma$ and $\delta s$ are correlated at the Hubble exit. 
+In this way the power spectrum and cross-correlation at Hubble exit is given by
 \begin{subequations}
 \begin{equation}
 P_{\sigma^*}(k)\simeq\left(\frac{H_*}{2\pi}\right)^2(1+(-2+6C)\epsilon-2C\eta_{\sigma\sigma}),
@@ -192,13 +194,17 @@ C_{\sigma s^*}(k)\simeq-2C\eta_{\sigma s}\left(\frac{H_*}{2\pi}\right)^2,
 P_{s^*}(k)\simeq\left(\frac{H_*}{2\pi}\right)^2(1+(-2+2C)\epsilon-2C\eta_{ss}),
 \end{equation}
 \end{subequations}
-where $C\simeq 0.7296$ and $\epsilon$ and $\eta_{ij}$ ($i,j=\sigma,s$) are new slow-roll parameters defined in term of the new adiabatic and entropy fields (see appendix [A]). Here $*$ means quantities measured at hubble exit.
-\subsection{Final power spectrum and spectral index}
+where $C\simeq 0.7296$ and $\epsilon$ and $\eta_{ij}$ ($i,j=\sigma,s$) are new slow-roll parameters defined in term of the new adiabatic and entropy fields (see appendix [A]). Here quantities measured at hubble exit are labeled by $^*$.
+
+%%%-------------------------------------------------------------------------------------------%%%
+\subsection{Power spectrum and spectral indices}
+%%%-------------------------------------------------------------------------------------------%%%
+
 The curvature and isocurvature perturbations are defined as
 \begin{equation}\label{RS}
 R\equiv\frac{H}{\dot\sigma}\delta \sigma, \ \ \ S=\frac{H}{\dot \sigma}\delta s.
 \end{equation}
-In the slow-roll limit and large scales, the evolution of curvature and isocurvature perturbations can be written using the formalism of transfer matrix as
+In the slow-roll limit and large scales \jav{again large scales}, the evolution of curvature and isocurvature perturbations can be written using the formalism of transfer matrix as
 \begin{equation}
 \binom{R }{S}=\begin{pmatrix}1 & T_{RS}\\ 0& T_{SS}\end{pmatrix}\binom{R}{S}_*,
 \end{equation}
@@ -216,7 +222,7 @@ and at linear order in slow-roll parameters
 \alpha\simeq -2\eta_{\sigma s}, \ \ \ \ \beta\simeq-2\epsilon+\eta_{\sigma\sigma}-\eta_{ss}.
 \end{equation}
 
-The primordial curvature perturbation right after inflation has ended is given in large scales by
+The primordial curvature perturbation right after inflation has ended is given in large scales \jav{again large scales} by
 \begin{equation}
 R=\Psi+\frac{H\delta\rho}{\rho},
 \end{equation}
@@ -224,7 +230,7 @@ where $\Psi$ is the gravitational potential. The conventional definition of the 
 \begin{equation}
 S_i=H\left(\frac{\delta\rho_{i}}{\rho_{i}}-\frac{\delta\rho_\gamma}{\rho_\gamma}\right).
 \end{equation}
-Then, the final power spectrum at the beginning of the radiation-domination era is given by
+Then, the final power spectra, at the beginning of the radiation-domination era, are thus
 \begin{subequations}\label{spectrums}
 \begin{equation}\label{PRf}
 P_R\simeq P|_*(1+\cot^2\Delta),
@@ -244,7 +250,7 @@ with $M_{pl}=1.221\times 10^{19}GeV$ the Planck mass and $\Delta$ is the observa
 \begin{equation}
 \cos\Delta =\frac{T_{RS}}{\sqrt{1+T_{RS}^2}}.
 \end{equation}
-The final tilts, defined as $n_x-1=d\ln P_x/d\ln k$, at linear order in slow-roll parameters are
+The final spectral indices, defined as $n_x-1=d\ln P_x/d\ln k$, at linear order in slow-roll parameters are
 \begin{subequations}\label{tilts}
 \begin{eqnarray}
 n_R-1&\simeq & -(6-4\cos^2\Delta)\epsilon+2\sin^2\Delta\eta_{\sigma\sigma}\nonumber \\ &&+4\sin\Delta\cos\Delta\eta_{\sigma s}+2\cos^2\Delta\eta_{ss}\\
@@ -253,7 +259,8 @@ n_S-1&\simeq & -2\epsilon+2\eta_{ss}.
 \end{eqnarray}
 \end{subequations}
 
-In order to understand what is the contribution of each field to the primordial spectrum, it is better to rewritte the primordial adiabatic and entropy perturbations on super-horizon scales as a power law, given by
+In order to understand the contribution of each field to the primordial spectrum, we rewrite the primordial adiabatic 
+and entropy perturbations on super-horizon scales \jav{is this valid at all scales?} as a power law, given by
 \begin{subequations}\label{PswAs}
 \begin{equation}\label{PrAs}
 P_R=A_r^2\left(\frac{k}{k_0}\right)^{n_{ad1}-1}+A_s^2\left(\frac{k}{k_0}\right)^{n_{ad2}-1},
@@ -265,7 +272,10 @@ C_{RS}=A_sB\left(\frac{k}{k_0}\right)^{n_{cor}-1},
 P_s=B^2\left(\frac{k}{k_0}\right)^{n_{iso}-1},
 \end{equation}
 \end{subequations}
-where at linear order $n_{ad1}=-6\epsilon+2\eta_{\sigma\sigma}$, $n_{ad2}=2n_C-n_S$, $n_{cor}=n_c$, $n_{iso}=n_S$. We have that $A_r^2$, $A_s^2$ and $B$ can be written in terms of the correlation angle as
+where at linear order $n_{ad1}=-6\epsilon+2\eta_{\sigma\sigma}$, $n_{ad2}=2n_C-n_S$, 
+$n_{cor}=n_c$, $n_{iso}=n_S$. We have that $A_r^2$, $A_s^2$ and $B$ can be written in 
+terms of the correlation angle $\Delta$ as
+
 \begin{subequations}
 \label{RelAs}
 \begin{equation}
@@ -275,10 +285,18 @@ A_r^2=[P_R\sin^2\Delta]_{k_0}, \ \ \ \ A_s^2=[P_R\cos^2\Delta]_{k_0},
 B^2=[T_{SS}^2 P_R|_*]_{k_0}.
 \end{equation}
 \end{subequations}
-$A_r^2$ and $A_s^2$ are the contribution of the adiabatic and entropy fields to the amplitud of the primordial adiabatic spectrum. 
-\subsection{Gravitational waves}
+$A_r^2$ and $A_s^2$ are the contributions of the adiabatic and entropy fields to the amplitud 
+of the primordial adiabatic spectrum. 
 
-Given the fact that scalar and tensor perturbations are decoupled at linear order, the gravitational waves at horizon crossing is the same than the single-field case and the gravitational waves amplitude remains frozen on large scales after Hubble exit during inflation. In this way the power spectrum and the tilt of the gravitational waves are given by
+%%%-------------------------------------------------------------------------------------------%%%
+\subsection{Gravitational waves}
+%%%-------------------------------------------------------------------------------------------%%%
+
+Given the fact that scalar and tensor perturbations are decoupled at linear order, the amplitude of 
+the gravitational waves spectrum at horizon crossing 
+%is the same than the single-field case and the gravitational waves amplitude 
+remained frozen on large scales after the Hubble exit during inflation. 
+In this way the power spectrum and the tilt of the gravitational waves are given by
 \begin{equation}
 P_T=P_{T*}\simeq 8 \left(\frac{H_*}{2\pi M_{pl}}\right)^2(1+2(-1+C)\epsilon),
 \end{equation}
@@ -286,14 +304,22 @@ P_T=P_{T*}\simeq 8 \left(\frac{H_*}{2\pi M_{pl}}\right)^2(1+2(-1+C)\epsilon),
 n_T\simeq -2\epsilon\left[1+\left(\frac{4}{3}+4C\right)\epsilon+\left(\frac{2}{3}+2C\right)\eta_{\sigma\sigma}\right].
 \end{equation}
 
-The tensor-to-scalar ratio at Hubble exit is the same than in the single field. However, at super-horizon scales, the curvature perturbations continue evolving as \eqref{PRf}. In this way the tensor-to-scalar ratio some time after the end of inflation is
+Then the tensor-to-scalar ratio ($r$) at Hubble exit is the same than in a single field scenario. 
+However, at super-horizon scales, the curvature perturbations continue evolving as \eqref{PRf}. 
+Therefore the tensor-to-scalar ratio some time after the end of inflation is
 \begin{equation}\label{Tensortoscalar}
-r\simeq 16\epsilon \sin^2\Delta\left[1-\left(\frac{4}{3}+4C\right)\epsilon +\left(\frac{2}{3}+2C\right)\eta_{\sigma\sigma}\right],
+r\simeq 16\epsilon \sin^2\Delta\left[1-\left(\frac{4}{3}+4C\right)\epsilon +\left(\frac{2}{3}+2C\right)\eta_{\sigma\sigma}\right].
 \end{equation}
-Notice the important result showed here. We can see that the single SF case works as an upper constraint on $r$.
-\section{Constraints on inflationary parameters}\label{experimentos}
+Notice that the single SF case works as an upper constraint on $r$, that can be tested by observations.
 
-In the standard approximation the most common inflationary observables are given by the tensor to scalar ratio $r$, the spectral index $n_R$ for adiabatic perturbations and the amplitude for adiabatic perturbations $A_r^2$.  The numerical value of the constraints of these parameters are given in terms of the pivot scale $k_0=0.05 Mpc^{-1}$ by \cite{const1,const2,planck,const3,const4,const5}
+%%%=========================================================================%%%
+\section{Constraints on inflationary parameters}\label{experimentos}
+%%%=========================================================================%%%
+
+In the standard approximation the inflationary observables are given by the tensor to scalar ratio $r$, 
+the spectral index for adiabatic perturbations $n_R$ and the amplitude for adiabatic perturbations $A_r^2$.  
+The constraints of these parameters are quoted at the pivot scale $k_0=0.05 Mpc^{-1}$ 
+by \cite{const1,const2,planck,const3,const4,const5}
 \begin{subequations}
 \begin{equation}\label{amplitude}
 A_r^2(k_0)=(2.215^{+0.032}_{-0.079})\times 10^{-9}, \ \ \ \text{at $68\%$ CL},
@@ -305,20 +331,28 @@ r_{k_0}<0.08 \ \ \ \text{at $95\%$ CL},
 n_R(k_0)=0.968 \pm 0.006.
 \end{equation}
 \end{subequations}
-Using these measurements we can constraint the value of the Hubble expansion rate during inflation $H_*$ as \cite{H1,H2}
+Using these measurements we are able to constrain the value of the Hubble expansion rate during 
+inflation $H_*$ as \cite{H1,H2}
 \begin{equation}\label{Hinf}
 r = 1.6\times 10^{-5}\left(\frac{H_{inf}}{10^{12}GeV}\right)^2.
 \end{equation}
 
-As we saw, if more than one SF lives during inflation we will obtain isocurvature perturbations generated by extra scalar fields perpendicular to the trajectory on field space. Parameterizing the isocurvature power spectrum for dark matter in terms of the curvature power as
+As we have seen beforehand, if more than one SF is present during inflation we will obtain isocurvature 
+perturbations generated by extra scalar fields perpendicular to the trajectory on field space. 
+%
+Parameterizing the isocurvature power spectrum for dark matter in terms of the curvature power as
 \begin{equation}\label{isoCDM}
 P_{DM}(k) = \frac{\beta_{iso}(k)}{1-\beta_{iso}(k)}P_R(k),
 \end{equation}
-where $P_{DM}=\delta \rho_{DM*}/\rho_{DM}$, $\delta\rho_{DM}$ are the isocurvature perturbations in $DM$ generated by extra scalar fields during inflation and $\rho_{DM}$ is the initial condition of DM, we have that uncorrelated scale-invariant DM isocurvature is constrained by \textit{Planck} \cite{const1,const2} at pivot scale $k_0$ as
+where $P_{DM}=\delta \rho_{DM*}/\rho_{DM}$, $\delta\rho_{DM}$ are the isocurvature 
+perturbations for the dark matter ($DM$) generated by extra scalar fields during inflation and $\rho_{DM}$ 
+is the initial condition of DM. 
+The uncorrelated scale-invariant DM isocurvature is constrained by Planck data \cite{const1,const2} at pivot scale $k_0$ as
 \begin{equation}\label{betaiso}
 \beta_{iso}(k_0)<0.038 \ \ \ \text{at $95\%$ CL}.
 \end{equation}
-Notice that isocurvature perturbations can be used to constraint the inflationary scale, just by combining equations \eqref{Hinf}, \eqref{isoCDM} and \eqref{betaiso}.
+Notice that isocurvature perturbations can be used to constraint the inflationary scale, 
+just by combining equations \eqref{Hinf}, \eqref{isoCDM} and \eqref{betaiso}.
 %
 %
 %
@@ -326,16 +360,43 @@ Notice that isocurvature perturbations can be used to constraint the inflationar
 %
 %
 \section{Simplest scenario: The single-field scenario and constraints for SFDM models}\label{simplest}
+ \jav{pq single-field? esSFDM/curvaton + inflation?}
 
-The simplest scenario is to consider that only one scalar field was dynamically important during inflation and the extra scalar field observer contributed to the primordial spectrum by generating only isocurvature fluctuations. This scenario is obtained always that $\rho_{\psi}\ll \rho_{\phi}$ during all the period of inflation, where $\phi$ is the inflaton. Even tough the idea of adding an extra spectator that does not contribute for inflation could be considered as no necessary, there are at least two scenarios where this extra degrees of freedom can be important. First is by considering an scenario where this extra scalar field can be used as a DM candidate, in such case we will have isocurvature constraints for our model. In a different manner we have the so called curvaton inflationary model, where this new field is responsible for the majority of the adiabatic perturbations produced during inflation. This scenario has been well studied in the literature being one of the preferable scenarios for the inflationary process \cite{curvaton15,curvaton16}. 
+The simplest scenario is to assume that only one scalar field was dynamically important during inflation and 
+the extra field observer contributed to the primordial spectrum by generating only isocurvature fluctuations. 
+%
+This scenario is obtained always that $\rho_{\psi}\ll \rho_{\phi}$ during all of the inflationary period, 
+where $\phi$ describes the inflaton. 
+%
+Even tough the idea of adding an spectator, that does not contribute to the inflationary process 
+\jav{does not contribute in any possible way?}, could be considered as unnecessary, there are at least 
+two scenarios where  extra degrees of freedom can be important. 
+%
+One is by considering an scenario where this extra scalar field can be used as a DM candidate, 
+in such case we will have isocurvature constraints for our model. On the other hand we have the so 
+called curvaton inflationary model, where this new field is responsible for the majority of the adiabatic 
+perturbations produced during inflation. This scenario has been well studied in the literature \jav{si ya ha sido bien estudiado,
+por que considerarlo aqui? que hay nuevo?} being 
+one of the preferable scenarios for the inflationary process \cite{curvaton15,curvaton16}. 
 
+%%%-------------------------------------------------------------------------------------------%%%
 \subsection{SFDM spectator scenario}
+%%%-------------------------------------------------------------------------------------------%%%
 
-In this scenario we need that the SFDM candidate to be a stable spectator field and that its classical dynamics and energy density during inflation being negligible. We can obtain such scenario by considering that the trajectory in the field space evolves in the inflaton direction $\phi$ whereas the direction perpendicular to the trajectory corresponds to the SFDM $\psi$. Notice that it is necessary that our dark matter candidate evolves much slower than the inflaton and that its density be smaller than the associated to the inflaton. Then, we can see that the last conditions demand that $\epsilon_\psi\ll \epsilon_\phi$.
+In this scenario we require that the SFDM candidate be a stable spectator field with negligible classical dynamics 
+and energy density during inflation. 
+We can obtain such scenario by considering that the trajectory in the field space evolves in the inflaton 
+direction $\phi$ whereas the direction perpendicular to the trajectory corresponds to the SFDM $\psi$. 
+Notice that it is necessary \jav{pq necesario? o de donde se ve?} that our dark matter candidate evolves 
+much slower than the inflaton and its density be smaller than the associated to the inflaton. 
+Then, we can see that the last conditions demand that $\epsilon_\psi\ll \epsilon_\phi$.
 
-During the inflationary scenario the entropy and adiabatic perturbations are uncorrelated which implies that $T_{RS}=0$ (and $C_{RS}=0$) as can be seen from \eqref{TRS} imposing initial conditions at horizon crossing. In this way we have that $\cos\Delta =0$. 
-
-As it is expected from \eqref{PrAs} and \eqref{RelAs} the primordial power spectrum for the adiabatic perturbations is produced purely by the inflaton (i.e. $A_s=0$) while quantum fluctuations of the SFDM give entry to the generation of uncorrelated isocurvature perturbations. 
+During the inflationary scenario the entropy and adiabatic perturbations are uncorrelated which 
+implies that $T_{RS}=0$ (and $C_{RS}=0$) as can be seen from \eqref{TRS} imposing initial conditions 
+at horizon crossing. In this way we have that $\cos\Delta =0$. 
+Also, as expected from \eqref{PrAs} and \eqref{RelAs}, the primordial power spectrum for the adiabatic 
+perturbations is produced purely by the inflaton (i.e. $A_s=0$) while quantum fluctuations of the SFDM 
+give rise to the generation of uncorrelated isocurvature perturbations. 
 %In this way the primordial power spectrum of adiabatic, isocurvature and tensor perturbations are
 %\begin{subequations}
 %\begin{equation}
@@ -366,11 +427,19 @@ As it is expected from \eqref{PrAs} and \eqref{RelAs} the primordial power spect
 %\end{equation}
 %which implies that the SFDM observer does not contribute to $r$.
 The adiabatic scalar amplitude of perturbations generated during inflation is from \eqref{amplitude} 
-$A_r^2=2.19\times 10^{-9}$, then the perturbations for the scalar field dark matter in this scenario is given by $B^2=2.19\times 10^{-9}T_{SS}^2$ where $T_{ss}^2$ depends of the model of inflation that we are considering. It happens that in exactly de-sitter inflation $\epsilon\sim 0$ we have $T_{ss}^2=1$. 
+$A_r^2=2.19\times 10^{-9}$, then the perturbations for the scalar field dark matter in this scenario 
+is given by $B^2=2.19\times 10^{-9}T_{SS}^2$ where $T_{ss}^2$ depends of the inflationary. 
+It happens that in exactly de-sitter inflation $\epsilon\sim 0$ we have $T_{ss}^2=1$. 
 
-Alternatively it is possible to constraint this scenario by comparing with the value of the SFDM at present. The way it is constrained will be explained later. For the moment it is necessary to review the cosmological history that a scalar field should have during the evolution of the Universe since it will be necessary to make the match between the value of the field at the present and the value of the field during the inflationary era. 
-
+Alternatively it is possible to constrain this scenario by comparing the values of the SFDM at present time. 
+%The way it is constrained will be explained later. For the moment it is necessary to 
+Let us review the cosmological history that a scalar field should have gone through the evolution of the Universe, 
+since it will be necessary to match the values of the field at the present with the field during the inflationary era. 
+\jav{aqui me quede}
+%%%-------------------------------------------------------------------------------------------%%%
 \subsubsection{A review on the SFDM model}
+%%%-------------------------------------------------------------------------------------------%%%
+
 
 In this section we analyze the cosmological evolution of a massive/self-interacting real (or complex) scalar field. If we consider that the SFDM candidate coexist with the inflaton, the complete system can be described by a general potential of the form $V(\phi,|\psi|^2)$. When the scalar field is complex it is convenient to work using a Madelung transformation \cite{madelung}
 \begin{equation}
