@@ -435,19 +435,30 @@ Alternatively it is possible to constrain this scenario by comparing the values 
 %The way it is constrained will be explained later. For the moment it is necessary to 
 Let us review the cosmological history that a scalar field should have gone through the evolution of the Universe, 
 since it will be necessary to match the values of the field at the present with the field during the inflationary era. 
-\jav{aqui me quede}
+
 %%%-------------------------------------------------------------------------------------------%%%
 \subsubsection{A review on the SFDM model}
 %%%-------------------------------------------------------------------------------------------%%%
 
 
-In this section we analyze the cosmological evolution of a massive/self-interacting real (or complex) scalar field. If we consider that the SFDM candidate coexist with the inflaton, the complete system can be described by a general potential of the form $V(\phi,|\psi|^2)$. When the scalar field is complex it is convenient to work using a Madelung transformation \cite{madelung}
+In this section we analyze the cosmological evolution of a massive/self-interacting real (or complex) scalar field. 
+If we consider the SFDM candidate ($\psi$) coexist with the inflaton, the complete system can be generally 
+described by a potential of the form $V(\phi,|\psi|^2)$. When the scalar field is complex it is convenient 
+to use a Madelung transformation \cite{madelung}
 \begin{equation}
 \psi = \eta \exp[i\theta],
 \end{equation}
 where $\eta\equiv |\psi|$ is the magnitude of field $\psi$ and $\theta$ its phase.
-Notice that in order to obtain a slow-roll approximation it is neccesary that $|\theta|<<1$ and $\eta$ fulfill the slow-roll condition during inflation\footnote{In fact the inflationary behavior is an attractor solution of the KG equation for a real field in the limit when $M^2<<H^2$ \cite{atractorinf1,atractorinf2}. The typical dynamics of a real SF in this limit is a stiff-like era followed by a inflationary-like era. In this article we consider that during the period of inflation that we are interested the SFDM candidate was in the inflationary-like era.}.
-Since we are interested in the complete history of the SFDM in the Universe let us rewrite and separate the KG equation in its real and imaginary components
+Notice that in order to obtain a slow-roll approximation it is neccesary that $|\theta|<<1$ \jav{pq, si es solo una fase?},
+ and that also $\eta$ satisfies the slow-roll condition during 
+ inflation\footnote{In fact the inflationary behavior is an attractor solution of the KG equation 
+ for a real field in the limit when $M^2<<H^2$ \cite{atractorinf1,atractorinf2}. 
+ %
+ In this limit the typical dynamics of a real SF is a stiff-like epoch, followed by an inflationary-like era. 
+ In this article we are interested in the SFDM 
+ candidate during the inflationary-like era.}.
+Since we are interested in the complete history of the SFDM in the Universe let us 
+rewrite and separate the KG equation in its real and imaginary components
 \begin{subequations}\label{KESFDM}
 \begin{equation}\label{KGe1}
 \ddot\eta+3H\dot\eta+2\frac{dV}{d|\psi|^2}\eta-\omega^2\eta= 0,
@@ -456,42 +467,64 @@ Since we are interested in the complete history of the SFDM in the Universe let 
 \dot\omega \eta + (2\dot\eta+3H\eta)\omega=0,
 \end{equation}
 \end{subequations}
-where $\omega = \dot \theta$, while the equation of the inflaton field continue being eq. \eqref{KGEq}. Equation \eqref{KGe2} can be exactly integrated obtaining 
+where $\omega = \dot \theta$, while the inflaton field equation continues 
+being eq. \eqref{KGEq}. Equation \eqref{KGe2} can be exactly integrated obtaining 
 \begin{equation}
 a^3\eta^2\omega=Q,
 \end{equation}
-where $Q$ is a charge of the SF related with the total number of particles \cite{SFphi42,charge1,SFphi41,charge3,charge4}. Using this last equation in \eqref{KGe1} we obtain
-that the radial component of the scalar field follows
+where $Q$ is a charge of the SF related with the total number of 
+particles \cite{SFphi42,charge1,SFphi41,charge3,charge4}. Plugging this last equation into \eqref{KGe1} we obtain
+the radial component of the scalar field follows
 \begin{equation}\label{KGe3}
 \ddot\eta+3H\dot\eta+M^2\eta-\frac{Q^2}{\eta^3}= 0.
 \end{equation}
-The term containing $Q$ is obtained by the complex nature of the SF \cite{SFphi42} an it can be interpreted as a "centrifugal force" \cite{charge4}; $M^2\equiv 2(dV/d|\psi|^2)$ can be interpreted as an effective mass term of the scalar field. Notice here that if we consider $Q^2/\eta^3\ll 1$ and we suppose that the SFDM candidate fulfill the slow-roll condition during inflation, the field $\eta$ will remain frozen at value $\eta_i$ until $H\sim M$. Then, when $H\sim M$ it will start evolving depending on the effective mass term.
+The term containing $Q$ is obtained by the complex nature of the SF \cite{SFphi42} and can be interpreted 
+as a ``centrifugal force" \cite{charge4}; $M^2\equiv 2(dV/d|\psi|^2)$ can be seen as an effective mass term 
+of the scalar field. Notice that if we take $Q^2/\eta^3\ll 1$ and we assume the SFDM candidate fulfills 
+the slow-roll condition during inflation, then the field $\eta$ will remain frozen at value $\eta_i$ until $H\sim M$. 
+Then, when $H\sim M$ will start evolving depending on the effective mass term.
 \begin{center}
 \textit{A real massive SFDM candidate}
 \end{center}
 
-A real massive scalar field is described by the potential 
+For a real massive scalar field, described by the potential 
 \begin{equation}
-V = \frac{1}{2}m^2\psi^2.
+V = \frac{1}{2}m^2\psi^2,
 \end{equation}
-Then we have that in equations \eqref{KESFDM} $\eta=\psi$ and $\theta=0$ which implies that $\omega=0$ and then $Q = 0$. We consider for simplicity that our SFDM candidate was not coupled with our inflaton field, in such case we can rewrite the total potential during inflation as
+we have from equations \eqref{KESFDM} that $\eta=\psi$ and $\theta=0$ which implies that $\omega=0$ and then $Q = 0$. 
+For the sake of simplicity we take that the SFDM candidate is not coupled to the inflaton field, and in such case 
+the total potential during inflation can be written as 
 
 \begin{equation}\label{potential_massive}
 V(\phi,|\psi|^2)=V(\phi)+\frac{1}{2}m^2\psi^2.
 \end{equation}
-In this way we can see that $M^2=m^2$. As we mentioned above when $H\gg m^2$ the term that contains $m^2$ in equation \eqref{KGe1} can be neglected. Since we are considering that the field is slowly rolling during the inflationary era, we can neglect the second derivatives in \eqref{KGe1}, then the field $\psi$ remains frozen at its initial value by Hubble dragging during the early universe \cite{curvatonatractor}. Then, when $m\sim H$ the SFDM starts to evolve and oscillate as a massive field. During its oscillation phase the dependence of $\psi$ respect to $a$ is $\psi\sim 1/a^{3/2}$, while its density behaves as $\rho_{\psi}\sim 1/a^3$  \cite{SFphi41,SFphi42}. In this way we can write the scalar density of our field as
+For this particular case we observe that  $M^2=m^2$. As mentioned above when $H\gg m^2$ the term with $m^2$ 
+in equation \eqref{KGe1} can be neglected. Since we considered the field is slowly rolling during the inflationary era, 
+we can neglect the second derivatives in \eqref{KGe1}, then the field $\psi$ remains frozen at its initial value by 
+Hubble dragging during the early universe \cite{curvatonatractor}. 
+%
+Then, when approaches the condition $m\sim H$ the SFDM starts evolving and oscillates as a massive field. 
+During its oscillation phase the dependence of $\psi$ respect to $a$ is $\psi\sim 1/a^{3/2}$, while its density 
+behaves as $\rho_{\psi}\sim 1/a^3$  \cite{SFphi41,SFphi42}. In this way we can write the scalar density 
+of our field as
+
 \begin{equation}\label{rhosfdm}
 \rho_\psi = \left\lbrace\begin{array}{ll}
-\frac{1}{2}m^2\psi_i^2 & \text{when }H\gg m \\
-\frac{1}{2}m^2\psi_i^2\left(\frac{a_{osc}}{a}\right)^3 & \text{when }H\ll m
+\frac{1}{2}m^2\psi_i^2 & \text{when }H\gg m, \\
+\frac{1}{2}m^2\psi_i^2\left(\frac{a_{osc}}{a}\right)^3 & \text{when }H\ll m.
 \end{array}\right .
 \end{equation}
 
-The typical mass that it is considered for a SFDM candidate is around $10^{-22} eV$. This implies that the field should starts its oscillations during a radiation-dominated Universe. During this period the Hubble parameter evolves in terms of the scale factor as $H\propto a^{-2}$. We can solve the KG equation \eqref{KGe1} exactly during this period in terms of the scale factor obtaining
+The typical mass for a SFDM candidate is around $10^{-22} eV$. 
+This implies that the field started oscillating during the radiation-dominated Universe. 
+During this period the Hubble parameter evolves in terms of the scale factor as $H\propto a^{-2}$, 
+and the KG equation \eqref{KGe1} can be solved exactly in terms of the scale factor,  obtaining
+\jav{aqui me quede}
 \begin{equation}
 \psi = \psi_i\Gamma\left(\frac{5}{4}\right)\left(\frac{4H}{m}\right)^{1/4}J_{1/4}\left(\frac{m}{2H}\right),
 \end{equation}
-where $\psi_i$ is the scalar field value during inflation and the initial condition for $\psi$ are given in such a way that when $m/H\rightarrow 0$ we obtain $\psi\rightarrow\psi_i$. If now we consider that in the above expression we obtain the $H\ll m$ behavior of equation \eqref{rhosfdm} when $m/H\rightarrow \infty$ we obtain that
+where $\psi_i$ is the scalar field value during inflation and the initial conditions for $\psi$ are given in 
+such a way that when $m/H\rightarrow 0$ we obtain $\psi\rightarrow\psi_i$. If now we consider that in the above expression we obtain the $H\ll m$ behavior of equation \eqref{rhosfdm} when $m/H\rightarrow \infty$ we obtain that
 \begin{equation}\label{m_osc}
 \frac{m^2}{H_{osc}^2}\simeq 2.68,
 \end{equation}
