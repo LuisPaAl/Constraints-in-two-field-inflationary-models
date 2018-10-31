@@ -60,6 +60,7 @@ Tratar de poner enfasis en lo nuevo.}
 \jav{Hay muchos 'consider', 'scalar field', 'start', 'scenario', 'notice', 'in this way', 'we can', 'using', 
 agregar sinonimos o cambiar frases.}
 \jav{Acomodar secciones, subsecciones, subsubsubsecciones}
+\jav{obtienes constricciones en terminos de $r$, y no vuelves a mencionar $n_T$. mencionar algo sobre este numero.}
 \end{abstract}
 \pacs{????}
 \begin{keywords}
@@ -917,6 +918,7 @@ referencia, que cambia con el tuyo?}.
 \caption{Isocurvature constraints for the SFDM candidate.
 \jav{ya me confundio esta figura. Seria bueno poner los ejes al reves, ya que $r$ se esta buscando 
 y $m$ seria un derivado. De acuerdo a esta figura, cuales son las constricciones actuales a la masa?}
+\jav{quitar la flecha y mejor centrar el texto, explicar regiones.}
 }\label{constraintsSFDM}
 \end{figure}
 
@@ -941,78 +943,173 @@ BEC corresponds to the minimum DM halo, it is obtained a mass $m=2.92\times 10^{
 V(\phi,|\psi|^2)=V(\phi)+\frac{1}{2}m^2\psi^2+\frac{1}{4}\lambda\psi^4.
 \end{equation}
 %
-\jav{aqui me quede}
-As we have shown in the last section we have 2 different scenarios for this model: a weak interacting and a strong interacting scenario. In the weak interacting model our SFDM behaves effectively as a massive field without auto-interaction, in such case the constrictions obtained by the massive field applies to this scenario. On the other hand when the auto-interacting term is big enough we obtain that during the cosmological history of the field we will have a new period where the SFDM behaves as a radiation-like fluid. In this way the constrictions we obtained before will not apply to this model anymore.
 
-Before studying the strong scenario notice that we can give general constrictions for the auto-interacting term in terms of the ones that we have made until now. As we see in last section we have the weakly self-interacting regime when $m^2\gg \lambda|\psi_i|^2/2$. In fact, thanks to the decreasing behavior of these scenarios we can consider that this regime is fulfilled always that $m^2\geq \lambda|\psi_i|^2/2$ or equivalently when $\lambda\leq 2m^2/|\psi_i|^2$. If the SFDM oscillations start at the same moment than the only massive case (which is not really true but we can assume it as a good approximation), we observe from \eqref{phi_im2} that constrictions can be given in terms of the mass $m$ of the SF as
+As we have shown in the last section we have 2 different scenarios for this model: 
+a weak interacting and a strong interacting. In the weak interacting model our SFDM behaves 
+effectively as a massive field without auto-interaction, and in such case the constrictions 
+for the massive field applies to this scenario too. On the other hand when the auto-interacting 
+term is big enough, the SFDM will have a new period with behavior of radiation-like fluid. 
+In this way the constrictions we obtained before will not apply to this model anymore \jav{por que?}
+\jav{osea que el weak interacting, no aporta nada?}.
+
+%Before studying the strong scenario notice that we can give general constrictions for the 
+%auto-interacting contribution in terms of our previous expressions. 
+As we observed in the last section 
+we have the weakly self-interacting regime when $m^2\gg \lambda|\psi_i|^2/2$. In fact, thanks to the 
+decreasing behavior of these scenarios we can consider that this regime is fulfilled always that 
+$m^2\geq \lambda|\psi_i|^2/2$ or equivalently when $\lambda\leq 2m^2/|\psi_i|^2$. 
+%
+If the SFDM oscillations start at the same time than the massive case (which is a good approximation), 
+\jav{por que es una buena aproximacion?}
+we observe from \eqref{phi_im2} that constrictions can be given in terms of the mass $m$ of the SF as
+%
 \begin{equation}
-\left(\frac{\lambda}{10^{-96}}\right)\leq 1.2\left(\frac{m}{10^{-22}eV}\right)^{5/2}
+\left(\frac{\lambda}{10^{-96}}\right)\leq 1.2\left(\frac{m}{10^{-22}eV}\right)^{5/2}.
 \end{equation}
-\textcolor{red}{No entend\'i lo que deb\'ia modificar.} We plot in figure \ref{weekregime} the weak limit obtained by our approximation. However this limit overestimates the value of $\lambda$ since when in the above expression we have an equality the field is not behaved as a dust-like field at all, this behavior is obtained when the $\lambda$ term is completely negligible.
+%\jav{estamos hablando del strong or weakly scenario? porq la ecuacion que usas se basa en el weakly scenario!!} 
+\jav{tal vez juntar esta parte con la del section iii, de self-interacting scalar field.}
+We plot in figure \ref{weekregime} the weak limit obtained by our approximation. 
+However this overestimates the value of $\lambda$ since in the above expression we have an 
+equality the field is not behaved as a dust-like field at all, 
+this behavior is obtained when the $\lambda$ term is completely negligible.
+\jav{reacomodar y reescribir. Esto va junto con el weakly scenario.}
+%
 \begin{figure}
 \includegraphics[width=8cm]{weakregime.png}
-\caption{Weakly self-interacting regime}
+\caption{Weakly self-interacting regime, \jav{explicar regiones, quitar flecha y mejor centrar el texto}}
 \label{weekregime}
 \end{figure} 
 
-In the strong self-interacting regime the SFDM follows the attractor solution \eqref{atractor} during the inflationary era.
+In the strong self-interacting regime, during the inflationary era, the SFDM follows the attractor solution \eqref{atractor}.
 %\begin{equation}\label{atractor0}
 %\psi_{att} =\left(2\lambda\int_{\phi}^{\phi_0}V^{-1}_{,\phi}d\phi\right)^{-1/2}
 %\end{equation}
-The value that the homogeneous field can obtain after inflation depends on if $\psi_{att}<\sqrt{2}m/\sqrt{\lambda}\equiv \psi_t$ or not. When $\psi_{att}<\psi_t$ the field follows the attractor solution until $\psi\simeq \psi_t$. Then the scalar field is frozen at that value and starts oscillating as a massive field when $m\sim H$. Notice that we can do two kind of constrictions of our free parameters in this cenario. First, from equation \eqref{initial_c} and taking $\psi_i=\psi_t$ we have
+The value that the homogeneous field acquired  after inflation depends on the condition 
+$\psi_{att}<\sqrt{2}m/\sqrt{\lambda}\equiv \psi_t$. 
+For $\psi_{att}<\psi_t$ the field follows the attractor solution until $\psi\simeq \psi_t$. 
+Then the scalar field is frozen at that value and starts oscillating as a massive field 
+when $m\sim H$. Notice that we can do two kind of constrictions of our free parameters in this scenario. 
+First, from equation \eqref{initial_c} and taking $\psi_i=\psi_t$ we have
+%
 \begin{equation}
 r<1.2\times 10^{-4}\left[\frac{\left(\frac{m}{10^{-22}eV}\right)^2}{\frac{\lambda}{10^{-96}}}\right].
 \end{equation}
-While thanks to the fact that when the SFDM starts its oscillations it behaves as a massive field, the constrictions obtained in the non-interacting field must be fulfilled as well. Matching $\psi_t$ with \eqref{phi_im2} and considering the constriction given by the primordial tensor perturbations (eq. \eqref{constm}) we obtain
+%
+While thanks to the fact that when the SFDM starts its oscillations it behaves as a massive field, 
+the constrictions obtained in the non-interacting field must be fulfilled as well. 
+Matching $\psi_t$ with \eqref{phi_im2} and considering the constriction given by the 
+primordial tensor perturbations (eq. \eqref{constm}) we obtain
+%
 \begin{equation}
 \left(\frac{\lambda}{10^{-96}}\right)\leq 1.2\left(\frac{2\times 10^{-4}}{r}\right)^5.
 \end{equation}
-In figure \ref{constraintsSFDMl} we have plotted the above condition that is valid in the weak interacting regime.
+In figure \ref{constraintsSFDMl} we have plotted the above condition that is valid in the weak \jav{weak? sure? al inicio del parrafo 
+dice strong}  interacting regime.
 
 \begin{figure}[h]
 \includegraphics[width=8cm]{lambdavsr.png}
-\caption{Isocurvature constraints for the weakly self-interacting term.}\label{constraintsSFDMl}
+\caption{Isocurvature constraints for the weakly self-interacting term. \jav{weak?}}\label{constraintsSFDMl}
 \end{figure} 
 
 Additionally, in this scenario, the inflationary potential fulfills the condition 
+%
 \begin{equation}
 \left(\int^{\phi_0}_\phi V_{,\phi}^{-1}d\phi\right)^{-1/2}<2m.
 \end{equation}
-We can see that it is very difficult to obtain this relation for an ultra-light SFDM candidate. For example, if we consider a chaotic-like inflationary potential, $V(\phi)=\frac{1}{2}M_{inf}^2\phi^2$, the above conditions implies that
+%
+We can see that it is very difficult to obtain this relation for an ultra-light SFDM candidate. 
+For example, if we consider a chaotic-like inflationary potential, $V(\phi)=\frac{1}{2}M_{inf}^2\phi^2$, 
+the above conditions implies that
+%
 \begin{equation}\label{chaoticweek}
 \left(\log\frac{\phi_0}{\phi}\right)^{-1/2}<2\frac{m}{M_{inf}}.
 \end{equation}
-However, in a chaotic-like inflationary potential the mass $M_{inf}$ of the inflaton that best matches the observations\footnote{This chaotic-like inflationary potential is ruled-out now for observations, however we use it as an example in order to obtain general constraints for our models.} is of order $M_{inf}\sim 10^{12} GeV$ \cite{Liddle}. If now we consider an ultra-light SFDM candidate with a mass $m\sim 10^{-22}eV$, the above conditions implies that the logarithmic part of the expression should be lower that $\sim 10^{-43}$. The inflationary behavior for a chaotic-like inflaton ends when $\phi_{end}\simeq 2M_{pl}$ \cite{curvatonatractor,Liddle}. Moreover as it is explained in \cite{curvatonatractor}, the initial condition of the inflaton can not be arbitrarily large since the stochastic behavior is significant for $\dot\phi H^{-1}<H/2\pi$. If it is considered that the Universe starts when the inflaton escapes from the stochastic behavior we have that the initial condition for the inflaton should be
+%
+However, in a chaotic-like inflationary potential the mass $M_{inf}$ of the inflaton 
+that best matches the observations\footnote{This chaotic-like inflationary potential is 
+ruled-out now for observations, however we use it as an example in order to obtain 
+general constraints for our models.} is of order $M_{inf}\sim 10^{12} GeV$ \cite{Liddle}. 
+If now we assume an ultra-light SFDM candidate with a mass $m\sim 10^{-22}eV$, 
+the above conditions implies that the logarithmic part of the expression should be 
+lower that $\sim 10^{-43}$. The inflationary behavior for a chaotic-like inflaton ends 
+when $\phi_{end}\simeq 2M_{pl}$ \cite{curvatonatractor,Liddle}. Moreover as it is 
+explained in \cite{curvatonatractor}, the initial condition of the inflaton cannot be 
+arbitrarily large since the stochastic behavior is significant for $\dot\phi H^{-1}<H/2\pi$. 
+%
+If the Universe starts when the inflaton escapes from the stochastic 
+behavior we have that the initial condition  should be
+%
 \begin{equation}\label{phi_0}
 \phi_0\sim 10^5\times M_{pl}\left(\frac{10^{13}GeV}{M_{inf}}\right)^{1/2}.
 \end{equation}
-where we can easily see that the condition given in \eqref{chaoticweek} can not be fulfilled.
+%
+where we can easily see that the condition given in \eqref{chaoticweek} cannot be fulfilled 
+\jav{y si no se satisface, que pasa?}.
 
-When $\psi_{att}>\psi_t$ we have that the field follows the attractor solution during all the period of inflation. In this way the initial condition that the SFDM obtains is given by \eqref{atractor2}
+When $\psi_{att}>\psi_t$ we have that the field follows the attractor solution during all the period of inflation. 
+In this way the initial condition for the SFDM  given by \eqref{atractor2}
+%
 \begin{equation}\label{atractor3}
 \psi_{att}^i = \left(2\lambda\int_{\phi_{end}}^{\phi_0}V^{-1}_{,\phi}d\phi\right)^{-1/2}.
 \end{equation}
-Then the SFDM remains frozen at value $\psi_{att}^i$ until $M\sim H$ and starts oscillating with a quartic potential. In this scenario the SF density behaves as $\rho_{SFDM}\propto \psi^4$ in such case we can write $P_{SFDM}=4\delta\psi/\psi_i$. In this way the primordial isocurvature perturbations for a strong-interacting SFDM is given by
+%
+Then the SFDM remains frozen at value $\psi_{att}^i$ until $M\sim H$ and starts oscillating with a 
+quartic potential. In this scenario the SF density behaves as $\rho_{SFDM}\propto \psi^4$ and 
+in such case we can write $P_{SFDM}=4\delta\psi/\psi_i$. In this way the primordial 
+isocurvature perturbations for a strong-interacting SFDM is given by
+%
 \begin{equation}
 P_{SFDM}(k)=\left(\frac{2H_*}{\pi\psi_i}\right)^2.
 \end{equation}
-In last section we showed how the initial condition can be related with the value of the field that we see now. Using eqs. \eqref{inilamb2} and \eqref{phi_im2}, using $g_{*osc}=3.36$ and $g_{s*osc}=3.91$  and considering the appropiate constrictions equivalent that the ones obtained in \eqref{initial_c} we obtain
+%
+In the last section we showed the relation of the initial condition  with the value of the 
+field today. Using eqs. \eqref{inilamb2} and \eqref{phi_im2}, 
+with $g_{*osc}=3.36$ and $g_{s*osc}=3.91$  and considering the appropriate units,  
+similar to the ones obtained in \eqref{initial_c}, we obtain
+%
 \begin{equation}\label{constr4}
-r<\frac{1.172\times 10^{-4}}{7^{1/3}f^2(\sigma)}\left[\frac{2\left(\frac{m}{10^{-22}eV}\right)^{3/2}}{\left(\frac{\lambda}{10^{-96}}\right)}\right]^{1/2}.
+r<\frac{1.172\times 10^{-4}}{7^{1/3}f^2(\sigma)}\left[\frac{2
+\left(\frac{m}{10^{-22}eV}\right)^{3/2}}{\left(\frac{\lambda}{10^{-96}}\right)}\right]^{1/2}.
 \end{equation}
-We show in figure \ref{constraintsSFDMls} constraints obtained for the strong scenario in terms of tensor-to-scalar ratio. We plotted contours of the value of the right side on the above equation. Notice that the gray region in the figure corresponds with values larger that $0.08$ which are the current upper limit for $r$. This implies that such region is already allowed by the model. It is necessary to mention that there are some region of parameters where the strong and the weakly scenarios are overlapped in our approximations. This is because the different simplifications that we had considered for our analysis. However these descriptions can give us general considerations for our SFDM models. For example, as we can see in the figure as long as the mass parameter $m$ of the SF decreases, the possible values of the auto-interacting parameter is less restrictive. On the other hand we observe that if we fix a mass $m$, it is possible to avoid isocurvature perturbations by increasing the value of the auto-interacting term until a lower value. For example, lets suppose that we are interested in a model with a mass $m\sim 10^{-21} eV$ in the strong regime. Let us assume as well that future experiments on gravitational waves measure $r\sim 0.05,0.01,0.001$. In this way we obtain from figure \ref{constraintsSFDMls} that such observation should implies that $\lambda>10^{-94},10^{-95},10^{-97}$, where the last constriction is obtained by the lower value for $\lambda$ in the strong scenario.   
+%
+We show in figure \ref{constraintsSFDMls} constraints obtained for the strong scenario 
+in terms of tensor-to-scalar ratio. 
+We plotted contours of the value of the right side on the above equation \jav{ser mas especifico}. 
+Notice that the gray region in the figure corresponds with values larger that $0.08$ 
+which are the current upper limit for $r$. This implies that such region is already allowed by the model. 
+It is necessary to mention that there are some region of parameters where the strong and 
+the weakly scenarios are overlapped in our approximations \jav{cuales? mostrar}. This is because the 
+simplifications  we had in our analysis \jav{es bueno, malo?}. 
+However these descriptions can give us general considerations for our SFDM models. 
+Figure \jav{[?]} shows that as long as the mass parameter $m$ of the SF decreases, 
+the possible values of the auto-interacting parameter is less restrictive. On the other hand we observe 
+that if we fix a mass $m$, it is possible to avoid isocurvature perturbations by increasing the value of 
+the auto-interacting term. 
+For example, let us suppose that we are interested in a model with a mass $m\sim 10^{-21} eV$ in the strong regime. 
+Let us assume as well that future experiments on gravitational waves measure $r\sim 0.05,0.01,0.001$. 
+In this way we obtain from figure \ref{constraintsSFDMls} that such observations should imply 
+that $\lambda>10^{-94},10^{-95},10^{-97}$, where the last constriction is obtained by the 
+lower value for $\lambda$ in the strong scenario.   \jav{explicar colores, regiones, ejes, etc..}
+%
 \begin{figure}
 \includegraphics[width=8cm]{stronglamb.png}
-\caption{Isocurvature constraints for the strong auto-interacting scenario.}\label{constraintsSFDMls}
+\caption{Isocurvature constraints for the strong auto-interacting scenario.
+\jav{explicar bien}}\label{constraintsSFDMls}
 \end{figure} 
 
-Remark: This scenario is of special interest given that the attractor solution justify the initial conditions for the SFDM model and because it is natural to avoid isocurvature perturbations when the auto-interacting term of the SF is big enough. 
-
-Similar than in the above description we can do general constraints for the inflationary potential that should generate inflation on this kind of scenarios. First we have that
+Remark: This scenario is of special interest given that the attractor solution justify the initial 
+conditions for the SFDM model and because it is natural to avoid isocurvature perturbations 
+when the auto-interacting term of the SF is big enough.
+ 
+\jav{aqui me quede}
+Similarly to the above description we can do general constraints for the inflationary 
+potential that should generate inflation on these kind of scenarios. First we have that
+%
 \begin{equation}
 \left(\int^{\phi_0}_\phi V_{,\phi}^{-1}d\phi\right)^{-1/2}>2m,
 \end{equation}
-which is very easy to fulfilled as we saw in the chaotic-like example. This relation can be translated into constrictions in the tensor-to-scalar ratio as
+which is very easy to fulfilled as we saw in the chaotic-like example. 
+This relation can be translated into constrictions in the tensor-to-scalar ratio as
 \begin{equation}
 r<\frac{0.6\times 10^{40}}{\left(\frac{\lambda}{10^{-96}}\right)}\left(\frac{1}{\int_{\phi_{end}}^{\phi_0}V_{,\phi}^{-1}d\phi}\right),
 \end{equation}
@@ -1074,6 +1171,7 @@ Considering \eqref{masslamb} as the most acceptable values for the mass of the S
 
 Observe that these parameters do not match with the lower constraints obtained in \eqref{lowerlambda}. This are not a problem for auto-interacting SFDM models since Eq. \eqref{lowerlambda} is obtained for a chaotic-like inflationary potential and, as we already know, that inflationary model is ruled-out by the actual constraints given by Planck \cite{planck}.
 
+\section{Another idea/paper}
 \subsection{Comments on Curvaton scenarios}
 
 In the curvaton scenario it is assumed that during inflation there was an extra scalar field that coexist with the inflaton and its classical dynamics was negligible (its energy density was sub-dominant during inflation). Then, similar to the SFDM scenario, this SF obtained quantum fluctuations. If the curvaton field is long lived (at least its life must be longer than the inflaton one) it starts to oscillate when the Hubble scale $H$ approaches the curvaton mass shortly before or after the inflaton decays to radiation. During its oscillation phase, this curvaton field starts to behave as dust and then its energy density decreases slower than the ones associated with the inflaton (see appendix [B] for a review of the model). If the curvaton decays to radiation when its quantum fluctuations dominate over the inflaton ones, we can obtain a scenario where curvaton quantum fluctuations can dominate the early Universe and give place to be the totality of the initial adiabatic perturbations. In the formalism showed in \ref{Generalities} and as it is explained in \cite{twofields}, such scenario is obtained when $T_{RS}>>1$ or equivalently when we consider in our analysis $\sin\Delta = 0$, in such case we obtain that the tensor-to-scalar ratio in the pure curvaton scenario is $r=0$. 
